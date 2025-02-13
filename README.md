@@ -6,6 +6,7 @@ Leetcode solved questions
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## String
 |  |
@@ -14,6 +15,7 @@ Leetcode solved questions
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Bit Manipulation
@@ -25,4 +27,16 @@ Leetcode solved questions
 |  |
 | ------- |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
+## Array
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
