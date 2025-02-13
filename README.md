@@ -17,11 +17,13 @@ Leetcode solved questions
 | ------- |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/ayhm23/Leetcode/tree/master/0191-number-of-1-bits) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/ayhm23/Leetcode/tree/master/0191-number-of-1-bits) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Sliding Window
 |  |
