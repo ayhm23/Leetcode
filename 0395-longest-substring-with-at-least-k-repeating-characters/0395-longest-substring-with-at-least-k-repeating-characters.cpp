@@ -2,6 +2,7 @@ class Solution {
 public:
     int longestSubstring(string s, int k) {
         if (s.empty()) return 0;
+        if(s.length()<k) return 0;
 
         unordered_map<char, int> freq;
         for (char c : s) freq[c]++;
