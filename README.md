@@ -15,6 +15,7 @@ Leetcode solved questions
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
@@ -34,6 +35,7 @@ Leetcode solved questions
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 ## Sorting
@@ -67,4 +69,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
