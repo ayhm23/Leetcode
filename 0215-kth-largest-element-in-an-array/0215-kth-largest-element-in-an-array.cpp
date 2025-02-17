@@ -1,42 +1,39 @@
 class Solution {
 public:
-    vector<int> Merge(vector<int>& a, vector<int>& b) {
-        vector<int> c;
-        int i = 0, j = 0;
-        c.reserve(a.size() + b.size()); // Preallocate memory
+    int findKthLargest(vector<int>& nums, int k) {
+        int targetIdx = nums.size() - k;
+        return quickSelect(nums, 0, nums.size() - 1, targetIdx);
+    }
+    
+    int quickSelect(vector<int>& nums, int left, int right, int targetIdx) {
+        if (left == right) {
+            return nums[left];
+        }
 
-        while (i < a.size() && j < b.size()) {
-            if (a[i] <= b[j]) {
-                c.push_back(a[i++]);
-            } else {
-                c.push_back(b[j++]);
+        int pivot = nums[left];
+        int low = left;
+        int high = right;
+
+        while (low <= high) {
+            while (low <= high && nums[low] < pivot) {
+                low++;
+            }
+            while (low <= high && nums[high] > pivot) {
+                high--;
+            }
+            if (low <= high) {
+                swap(nums[low], nums[high]);
+                low++;
+                high--;
             }
         }
 
-        while (i < a.size()) {
-            c.push_back(a[i++]);
+        if (targetIdx <= high) {
+            return quickSelect(nums, left, high, targetIdx);
+        } else if (targetIdx >= low) {
+            return quickSelect(nums, low, right, targetIdx);
+        } else {
+            return nums[targetIdx];
         }
-        while (j < b.size()) {
-            c.push_back(b[j++]);
-        }
-        return c;
-    }
-
-    vector<int> MergeSort(vector<int>& nums, int left, int right) {
-        if (left == right) {
-            return {nums[left]};  // Wrap single element in a vector
-        }
-
-        int middle = left + (right - left) / 2;
-        vector<int> leftSorted = MergeSort(nums, left, middle);
-        vector<int> rightSorted = MergeSort(nums, middle + 1, right);
-
-        return Merge(leftSorted, rightSorted);
-    }
-
-    int findKthLargest(vector<int>& nums, int k) {
-        nums = MergeSort(nums, 0, nums.size()-1);
-        return nums[nums.size()-k];
-
     }
 };
