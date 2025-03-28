@@ -92,6 +92,7 @@ Leetcode solved questions
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 ## Dynamic Programming
@@ -141,6 +142,7 @@ Leetcode solved questions
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/ayhm23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 ## Union Find
@@ -156,6 +158,7 @@ Leetcode solved questions
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
 ## Matrix
 |  |
 | ------- |
@@ -168,4 +171,5 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
+| [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
