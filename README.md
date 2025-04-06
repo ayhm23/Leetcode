@@ -105,6 +105,7 @@ Leetcode solved questions
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -133,6 +134,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -167,6 +169,7 @@ Leetcode solved questions
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -193,6 +196,7 @@ Leetcode solved questions
 | ------- |
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/ayhm23/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ayhm23/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -219,6 +223,7 @@ Leetcode solved questions
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
