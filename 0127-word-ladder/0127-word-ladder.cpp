@@ -21,7 +21,8 @@ public:
             
             for(int i = 0; i < currWord.length(); i++){
                 for(int j = 0; j < 26; j++){
-                    string nextWord = currWord.substr(0, i) + char('a' + j) + currWord.substr(i + 1);
+                    // string nextWord = currWord.substr(0, i) + char('a' + j) + currWord.substr(i + 1);
+                    string nextWord = currWord; nextWord[i] = char('a' + j);
                     int nextLevel = currLevel + 1;
 
                     if(nextWord == endWord){
