@@ -6,6 +6,7 @@ Leetcode solved questions
 ## Hash Table
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -15,6 +16,7 @@ Leetcode solved questions
 ## String
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
@@ -157,6 +159,7 @@ Leetcode solved questions
 ## Breadth-First Search
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
@@ -218,4 +221,8 @@ Leetcode solved questions
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Backtracking
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 <!---LeetCode Topics End-->
