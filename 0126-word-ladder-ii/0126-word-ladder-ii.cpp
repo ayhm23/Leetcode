@@ -1,77 +1,58 @@
 class Solution {
 public:
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> words(wordList.begin(), wordList.end());
-        vector<vector<string>> result;
+        unordered_set<string> dict(wordList.begin(), wordList.end());
+        if (!dict.count(endWord)) return {}; // Early exit if endWord is not in wordList
 
-        if (words.find(endWord) == words.end()) return {};
+        unordered_map<string, vector<string>> parents; // Store parent-child relationships
+        unordered_set<string> currentLevel{beginWord}; // Current BFS level
+        bool found = false;
 
-        unordered_map<string, int> levels;
-        unordered_map<string, vector<string>> parents;
-        queue<string> q;
-
-        q.push(beginWord);
-        levels[beginWord] = 1;
-        words.erase(beginWord);
-
-        while (!q.empty()) {
-            int levelSize = q.size();
-            unordered_set<string> visitedThisLevel;
-
-            for (int i = 0; i < levelSize; ++i) {
-                string word = q.front(); q.pop();
-                int currLevel = levels[word];
-
-                for (int j = 0; j < word.size(); ++j) {
-                    string nextWord = word;
-                    for (char c = 'a'; c <= 'z'; ++c) {
-                        nextWord[j] = c;
-                        if (nextWord == word) continue;
-
-                        if (levels.find(nextWord) == levels.end() && words.find(nextWord) != words.end()) {
-                            // First time visit
-                            levels[nextWord] = currLevel + 1;
-                            q.push(nextWord);
-                            visitedThisLevel.insert(nextWord);
-                            parents[nextWord].push_back(word);
-                        } else if (levels[nextWord] == currLevel + 1) {
-                            // Already visited on same level → valid parent
-                            parents[nextWord].push_back(word);
+        // BFS Traversal
+        while (!currentLevel.empty() && !found) {
+            unordered_set<string> nextLevel;
+            for (const string& word : currentLevel) dict.erase(word); // Remove words used on this level
+            
+            for (const string& word : currentLevel) {
+                string temp = word;
+                for (int i = 0; i < word.size(); i++) {
+                    char original = temp[i];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == original) continue;
+                        temp[i] = c;
+                        if (dict.count(temp)) {
+                            nextLevel.insert(temp);
+                            parents[temp].push_back(word); // Store the transformation path
+                            if (temp == endWord) found = true;
                         }
                     }
+                    temp[i] = original;
                 }
             }
-
-            for (const string& w : visitedThisLevel) {
-                words.erase(w);
-            }
+            currentLevel = move(nextLevel); // Move to the next level
         }
 
-        if (levels.find(endWord) == levels.end()) return {}; // No path
+        // If no paths found, return empty result
+        if (!found) return {};
 
-        vector<string> path;
-        backtrack(endWord, beginWord, parents, path, result);
-        return result;
+        // Reconstruct paths using DFS
+        vector<vector<string>> ans;
+        vector<string> path = {endWord};
+        dfs(ans, parents, path, endWord, beginWord);
+        return ans;
     }
 
 private:
-    void backtrack(string word, string beginWord,
-                   unordered_map<string, vector<string>>& parents,
-                   vector<string>& path,
-                   vector<vector<string>>& result) {
+    void dfs(vector<vector<string>>& ans, unordered_map<string, vector<string>>& parents, 
+             vector<string>& path, const string& word, const string& beginWord) {
         if (word == beginWord) {
-            path.push_back(word);
-            vector<string> validPath = path;
-            reverse(validPath.begin(), validPath.end());
-            result.push_back(validPath);
-            path.pop_back();
+            ans.push_back(vector<string>(path.rbegin(), path.rend())); // Reverse path
             return;
         }
-
-        path.push_back(word);
-        for (const string& p : parents[word]) {
-            backtrack(p, beginWord, parents, path, result);
+        for (const string& parent : parents[word]) {
+            path.push_back(parent);
+            dfs(ans, parents, path, parent, beginWord);
+            path.pop_back();
         }
-        path.pop_back();
     }
 };
