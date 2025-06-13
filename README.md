@@ -69,6 +69,7 @@ Leetcode solved questions
 | [1171-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
 ## Sorting
 |  |
 | ------- |
@@ -247,4 +248,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
+## Enumeration
+|  |
+| ------- |
+| [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
 <!---LeetCode Topics End-->
