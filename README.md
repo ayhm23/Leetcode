@@ -53,6 +53,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/ayhm23/Leetcode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
@@ -98,6 +99,7 @@ Leetcode solved questions
 ## Binary Search Tree
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/ayhm23/Leetcode/tree/master/0035-search-insert-position) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
