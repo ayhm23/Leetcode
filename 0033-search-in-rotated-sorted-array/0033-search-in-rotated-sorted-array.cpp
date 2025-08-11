@@ -13,7 +13,8 @@ public:
     int search(vector<int>& nums, int target) {
         int n = nums.size();
         int low = 0, high = n - 1;
-
+        //LEFT ROTATION - COMPARE HIGH
+        //RIGHT ROTATION - COMPARE LOW
         // Find pivot index
         while (low < high) {
             int mid = low + (high - low) / 2;
