@@ -1,32 +1,48 @@
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
+        int low = 0, high = nums.size() - 1;
         int n = nums.size();
-        if (n == 1) return 0; // only one element, it's the peak
+        int ans = -1;
 
-        int low = 0, high = n - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            // handle boundaries
-            if (mid == 0) {
-                return (nums[0] > nums[1]) ? 0 : 1;
+            // Case: mid in between
+            if (mid > 0 && mid < n - 1) {
+                if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
+                    ans = mid;
+                    break;
+                }
+                else if (nums[mid] < nums[mid + 1]) {
+                    low = mid + 1;
+                }
+                else {
+                    high = mid - 1;
+                }
             }
-            if (mid == n - 1) {
-                return (nums[n-1] > nums[n-2]) ? n-1 : n-2;
+            // Case: mid == 0 (only check right neighbor to avoid overflow)
+            else if (mid == 0) {
+                if (n == 1 || nums[mid] > nums[mid + 1]) {
+                    ans = mid;
+                    break;
+                }
+                else {
+                    low = mid + 1;
+                }
             }
-
-            // mid is between 1 and n-2
-            if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
-                return mid;
-            }
-            else if (nums[mid] < nums[mid + 1]) {
-                low = mid + 1;
-            }
-            else {
-                high = mid - 1;
+            // Case: mid == n-1 (only check left neighbor)
+            else if (mid == n - 1) {
+                if (nums[mid] > nums[mid - 1]) {
+                    ans = mid;
+                    break;
+                }
+                else {
+                    high = mid - 1;
+                }
             }
         }
-        return -1; // should never reach here
+
+        return ans;
     }
 };
