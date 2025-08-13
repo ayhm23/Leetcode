@@ -68,6 +68,7 @@ Leetcode solved questions
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ayhm23/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
@@ -108,6 +109,7 @@ Leetcode solved questions
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
+| [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
