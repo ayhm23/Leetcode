@@ -67,6 +67,7 @@ Leetcode solved questions
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
+| [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/ayhm23/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -117,6 +118,7 @@ Leetcode solved questions
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ayhm23/Leetcode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
+| [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -136,6 +138,7 @@ Leetcode solved questions
 ## Greedy
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
@@ -159,6 +162,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
+| [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -287,4 +291,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
+## Prefix Sum
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 <!---LeetCode Topics End-->
