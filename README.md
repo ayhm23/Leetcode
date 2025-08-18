@@ -6,6 +6,7 @@ Leetcode solved questions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ayhm23/Leetcode/tree/master/0001-two-sum) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
@@ -52,6 +53,7 @@ Leetcode solved questions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ayhm23/Leetcode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
