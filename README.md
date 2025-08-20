@@ -33,6 +33,7 @@ Leetcode solved questions
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/ayhm23/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
@@ -70,6 +71,7 @@ Leetcode solved questions
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
@@ -125,6 +127,7 @@ Leetcode solved questions
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ayhm23/Leetcode/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -262,6 +265,7 @@ Leetcode solved questions
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/ayhm23/Leetcode/tree/master/0854-making-a-large-island) |
