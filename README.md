@@ -20,6 +20,7 @@ Leetcode solved questions
 | ------- |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
+| [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -299,6 +300,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
 ## Math
