@@ -10,6 +10,7 @@ Leetcode solved questions
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/ayhm23/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
@@ -22,6 +23,7 @@ Leetcode solved questions
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/ayhm23/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
