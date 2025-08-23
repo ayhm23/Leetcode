@@ -26,6 +26,7 @@ Leetcode solved questions
 | [0205-isomorphic-strings](https://github.com/ayhm23/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -327,4 +328,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ayhm23/Leetcode/tree/master/0014-longest-common-prefix) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
