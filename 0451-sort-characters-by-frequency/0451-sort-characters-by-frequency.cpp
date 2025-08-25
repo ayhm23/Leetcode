@@ -1,26 +1,26 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        // Step 1: Count frequencies
-        unordered_map<char, int> freq;
+        unordered_map<char, int> mp;
+        
+        // Count frequencies
         for (char c : s) {
-            freq[c]++;
+            mp[c]++;
         }
-
-        // Step 2: Put into max heap (priority_queue)
+        
+        // Max heap by frequency
         priority_queue<pair<int, char>> pq;
-        for (auto &p : freq) {
-            pq.push({p.second, p.first});  // {frequency, char}
+        for (auto &it : mp) {
+            pq.push({it.second, it.first});
         }
-
-        // Step 3: Build result string
+        
         string result;
         while (!pq.empty()) {
-            auto [count, ch] = pq.top();
+            auto it = pq.top();
             pq.pop();
-            result.append(count, ch); // append 'ch' count times
+            result.append(it.first, it.second); // repeat char 'it.second', it.first times
         }
-
+        
         return result;
     }
 };
