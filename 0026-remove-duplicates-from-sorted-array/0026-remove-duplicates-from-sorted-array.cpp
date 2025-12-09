@@ -1,19 +1,14 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int count = 1, curr = nums[0];
-        
-        vector<int> temp(nums.size(), 0);
-        temp[count-1] = curr;
+        int n = nums.size();
 
-        for(int i = 0; i < nums.size(); i++){
-            if(nums[i] != curr){
-                curr = nums[i];
-                count++;
-                temp[count-1] = curr;
+        int write = 1;                // next index to write a unique element
+        for (int read = 1; read < n; ++read) {
+            if (nums[read] != nums[write - 1]) {
+                nums[write++] = nums[read];
             }
         }
-        nums = temp;
-        return count;
+        return write;
     }
 };
