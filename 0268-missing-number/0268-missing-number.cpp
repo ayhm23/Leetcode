@@ -1,28 +1,12 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        
         int n = nums.size();
-        int Tsum = (n*(n+1))/2;
-        return  Tsum - accumulate(nums.begin(),nums.end(),0);
-        
+        int sum = (n*=n+1) / 2;
+        int Asum = 0;
+        for(int i : nums){
+            Asum += i;
+        }
+        return sum - Asum;
     }
-}; 
-
-
-
-// XOR approach
-// class Solution {
-// public:
-//     int missingNumber(vector<int>& nums) {
-//         int n = nums.size();
-//         int ans =0;
-//         for(int i =1;i<=n;i++){
-//             ans = ans ^ i;
-//         }
-//         for(int i =0;i<nums.size();i++){
-//             ans= ans^nums[i];
-//         }
-//         return ans;
-//     }
-// };
+};
