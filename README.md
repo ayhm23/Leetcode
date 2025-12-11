@@ -16,6 +16,7 @@ Leetcode solved questions
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ayhm23/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
@@ -95,6 +96,7 @@ Leetcode solved questions
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
@@ -340,6 +342,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Trie
 |  |
 | ------- |
