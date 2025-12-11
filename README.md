@@ -80,6 +80,7 @@ Leetcode solved questions
 | [0035-search-insert-position](https://github.com/ayhm23/Leetcode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
@@ -121,6 +122,7 @@ Leetcode solved questions
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/ayhm23/Leetcode/tree/master/0242-valid-anagram) |
@@ -324,6 +326,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
