@@ -8,6 +8,7 @@ Leetcode solved questions
 | ------- |
 | [0001-two-sum](https://github.com/ayhm23/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/ayhm23/Leetcode/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
@@ -79,6 +80,7 @@ Leetcode solved questions
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ayhm23/Leetcode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -295,6 +297,7 @@ Leetcode solved questions
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
