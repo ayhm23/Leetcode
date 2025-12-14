@@ -1,23 +1,22 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        unordered_map<int, int> map;
-        map[0] = 1;       // prefix sum 0 occurs once before array starts
+        // sol1 : make all subarrays O(N^2) O(N^2)
+        // sol2 : prefix sum O(N^2) O(N)
+        // sol3 : hashmap to keep count of exisitng sum
 
-        int sum = 0;
-        int count = 0;
-
-        for (int x : nums) {
-            sum += x;              // current prefix sum
-
-            int need = sum - k;     // we need a previous prefix equal to this
-            if (map.find(need) != map.end()) {
-                count += map[need];
+        unordered_map <int, int> map; 
+        map[0] = 1;
+        int n = nums.size();
+        int sum = 0, count = 0;
+        for(int i = 0; i < n; i++){
+            sum += nums[i];
+            int x = sum - k;
+            if(map.find(x) != map.end()){
+                count += map[x];
             }
-
-            map[sum]++;            // record this prefix sum
+            map[sum]++;
         }
-
-        return count;
+    return count;
     }
 };
