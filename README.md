@@ -36,6 +36,7 @@ Leetcode solved questions
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
+| [0796-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0812-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -375,6 +376,7 @@ Leetcode solved questions
 ## String Matching
 |  |
 | ------- |
+| [0796-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/ayhm23/Leetcode/tree/master/0812-rotate-string) |
 ## Simulation
 |  |
