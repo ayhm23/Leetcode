@@ -8,32 +8,60 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// class Solution {
+// public:
+//     ListNode* removeNthFromEnd(ListNode* head, int n) {
+//         //reverse - remove nth from back - reverse again
+
+//         ListNode * temp = head, * prev = NULL;
+//         while(temp){
+//             ListNode *next = temp->next;
+//             temp->next = prev;
+//             prev = temp; temp = next;
+//         }
+//         int i = 1;
+//         //prev at last node
+//         temp = prev; prev = NULL;
+//         while(temp){
+//             if(i == n){
+//                 temp = temp->next;
+//                 i++;
+//             }else{
+//                 ListNode * next = temp->next;
+//                 temp->next = prev;
+//                 prev = temp;
+//                 temp = next;
+//                 i++;
+//             }
+//         }
+//         return prev;
+//     }
+// };
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        //reverse - remove nth from back - reverse again
+        ListNode dummy(0);
+        dummy.next = head;
 
-        ListNode * temp = head, * prev = NULL;
-        while(temp){
-            ListNode *next = temp->next;
-            temp->next = prev;
-            prev = temp; temp = next;
+        ListNode* fast = &dummy;
+        ListNode* slow = &dummy;
+
+        // Move fast n+1 steps ahead
+        for (int i = 0; i <= n; i++) {
+            fast = fast->next;
         }
-        int i = 1;
-        //prev at last node
-        temp = prev; prev = NULL;
-        while(temp){
-            if(i == n){
-                temp = temp->next;
-                i++;
-            }else{
-                ListNode * next = temp->next;
-                temp->next = prev;
-                prev = temp;
-                temp = next;
-                i++;
-            }
+
+        // Move both pointers
+        while (fast != NULL) {
+            fast = fast->next;
+            slow = slow->next;
         }
-        return prev;
+
+        // Delete nth node from end
+        ListNode* del = slow->next;
+        slow->next = del->next;
+        delete del;
+
+        return dummy.next;
     }
 };
