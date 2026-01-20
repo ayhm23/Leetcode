@@ -68,6 +68,7 @@ Leetcode solved questions
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/ayhm23/Leetcode/tree/master/0191-number-of-1-bits) |
@@ -94,6 +95,7 @@ Leetcode solved questions
 | [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ayhm23/Leetcode/tree/master/0118-pascals-triangle) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
@@ -349,6 +351,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 ## Two Pointers
 |  |
