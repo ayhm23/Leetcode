@@ -7,10 +7,12 @@ public:
         }
 
         int temp = nums[i];
-        sub(ans, nums, i+1, curr);
+        
         curr.push_back(temp);
         sub(ans, nums, i+1, curr);
         curr.pop_back();
+
+        sub(ans, nums, i+1, curr);
     }
     
     vector<vector<int>> subsets(vector<int>& nums) {
