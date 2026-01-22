@@ -9,18 +9,19 @@ public:
 
         int n = candidates[i];
 
-        //not include;
-        summ(ans, curr, sum, i + 1, candidates, k);
-
         //include
 
         curr.push_back(n);
         sum+=n;
-
         summ(ans, curr, sum, i, candidates, k);
-
         curr.pop_back();
-        sum-=n;        
+        sum-=n; 
+
+
+        //not include;
+        summ(ans, curr, sum, i + 1, candidates, k);
+
+               
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
