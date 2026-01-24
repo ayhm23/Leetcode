@@ -32,6 +32,7 @@ Leetcode solved questions
 | [0013-roman-to-integer](https://github.com/ayhm23/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ayhm23/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -100,6 +101,7 @@ Leetcode solved questions
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ayhm23/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ayhm23/Leetcode/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ayhm23/Leetcode/tree/master/0118-pascals-triangle) |
@@ -212,6 +214,7 @@ Leetcode solved questions
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
@@ -333,6 +336,7 @@ Leetcode solved questions
 | [0048-rotate-image](https://github.com/ayhm23/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ayhm23/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
@@ -364,6 +368,7 @@ Leetcode solved questions
 | [0040-combination-sum-ii](https://github.com/ayhm23/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/ayhm23/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ayhm23/Leetcode/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
