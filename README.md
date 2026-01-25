@@ -247,6 +247,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
@@ -456,4 +457,8 @@ Leetcode solved questions
 | [0231-power-of-two](https://github.com/ayhm23/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [1922-count-good-numbers](https://github.com/ayhm23/Leetcode/tree/master/1922-count-good-numbers) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
