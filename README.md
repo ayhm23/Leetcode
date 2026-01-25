@@ -31,6 +31,7 @@ Leetcode solved questions
 | [0008-string-to-integer-atoi](https://github.com/ayhm23/Leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/ayhm23/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ayhm23/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
@@ -245,6 +246,7 @@ Leetcode solved questions
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
