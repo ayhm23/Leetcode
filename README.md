@@ -150,6 +150,7 @@ Leetcode solved questions
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
 | [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
@@ -264,6 +265,7 @@ Leetcode solved questions
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -272,6 +274,7 @@ Leetcode solved questions
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
