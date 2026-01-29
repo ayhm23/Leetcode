@@ -8,7 +8,6 @@ public:
 
         if(n == 1) return heights[0];
 
-        // ---------------- NSE (unchanged logic) ----------------
         for(int i = 0; i < n; i++){
             while(!st.empty() && heights[st.top()] > heights[i]){
                 nse[st.top()] = i;
@@ -21,8 +20,8 @@ public:
             st.pop();
         }
 
-        // ---------------- PSE ----------------
-        // CHANGE 1: loop condition fixed (must include i = 0)
+        
+        // loop condition fixed (must include i = 0)
         for(int i = n - 1; i >= 0; i--){   // was: i > 0
             while(!st.empty() && heights[st.top()] > heights[i]){
                 pse[st.top()] = i;
@@ -31,13 +30,12 @@ public:
             st.push(i);
         }
 
-        // CHANGE 2: default PSE should be -1, not 0
+        // default PSE should be -1, not 0
         while(!st.empty()){
-            pse[st.top()] = -1;           // was: 0
+            pse[st.top()] = -1;          
             st.pop();
         }
 
-        // ---------------- Area calculation (unchanged) ----------------
         int maxx = 0;
         for(int i = 0; i < n; i++){
             int curr = heights[i] * (nse[i] - pse[i] - 1);
