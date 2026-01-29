@@ -132,6 +132,7 @@ Leetcode solved questions
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
 | [0854-making-a-large-island](https://github.com/ayhm23/Leetcode/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -260,6 +261,7 @@ Leetcode solved questions
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
+| [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -448,6 +450,7 @@ Leetcode solved questions
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Linked List
 |  |
