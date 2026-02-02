@@ -22,6 +22,7 @@ Leetcode solved questions
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0460-lfu-cache](https://github.com/ayhm23/Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
@@ -479,6 +480,7 @@ Leetcode solved questions
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/ayhm23/Leetcode/tree/master/0460-lfu-cache) |
 | [0876-middle-of-the-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayhm23/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -495,6 +497,7 @@ Leetcode solved questions
 | ------- |
 | [0146-lru-cache](https://github.com/ayhm23/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
+| [0460-lfu-cache](https://github.com/ayhm23/Leetcode/tree/master/0460-lfu-cache) |
 | [0901-online-stock-span](https://github.com/ayhm23/Leetcode/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
@@ -512,4 +515,5 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ayhm23/Leetcode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/ayhm23/Leetcode/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
