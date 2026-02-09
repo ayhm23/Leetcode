@@ -185,6 +185,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Search Tree
@@ -217,6 +218,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 ## Greedy
@@ -232,6 +234,7 @@ Leetcode solved questions
 | ------- |
 | [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
@@ -264,6 +267,7 @@ Leetcode solved questions
 | [0020-valid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ayhm23/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayhm23/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/ayhm23/Leetcode/tree/master/0402-remove-k-digits) |
