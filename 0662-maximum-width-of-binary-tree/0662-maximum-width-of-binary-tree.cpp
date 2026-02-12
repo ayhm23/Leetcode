@@ -16,7 +16,7 @@ public:
 
         long long maxx = 0;
         queue<pair<TreeNode*, long long>> q; // node , index
-        q.push({root, 0});
+        q.push({root, 1});
 
         while (!q.empty()) {
             int sz = q.size();
