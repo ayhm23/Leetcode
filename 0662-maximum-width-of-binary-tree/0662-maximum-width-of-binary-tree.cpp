@@ -1,32 +1,24 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
+
         if (!root) return 0;
 
         long long maxx = 0;
-        queue<pair<TreeNode*, long long>> q; // node , index
-        q.push({root, 1});
+        queue<pair<TreeNode*, long long>> q;
+        q.push({root, 0});
 
         while (!q.empty()) {
-            int sz = q.size();
+            long long sz = q.size();
+            long long base = q.front().second;   // normalize
             long long first = 0, last = 0;
-            long long minIndex = q.front().second; // normalize
 
-            for (int i = 0; i < sz; i++) {
-                auto it = q.front(); q.pop();
+            for (long long i = 0; i < sz; i++) {
+                auto it = q.front(); 
+                q.pop();
+
                 TreeNode* node = it.first;
-                long long idx = it.second - minIndex;
+                long long idx = it.second - base;  // normalize here
 
                 if (i == 0) first = idx;
                 if (i == sz - 1) last = idx;
@@ -41,6 +33,6 @@ public:
             maxx = max(maxx, last - first + 1);
         }
 
-        return maxx;
+        return (int)maxx;
     }
 };
