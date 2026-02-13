@@ -215,6 +215,7 @@ Leetcode solved questions
 | [0543-diameter-of-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
@@ -234,6 +235,7 @@ Leetcode solved questions
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0700-search-in-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -268,6 +270,7 @@ Leetcode solved questions
 | [0543-diameter-of-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
