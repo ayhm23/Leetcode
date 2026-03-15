@@ -168,6 +168,7 @@ Leetcode solved questions
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/ayhm23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ayhm23/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -363,6 +364,7 @@ Leetcode solved questions
 | [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Stack
 |  |
@@ -500,6 +502,7 @@ Leetcode solved questions
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/ayhm23/Leetcode/tree/master/0854-making-a-large-island) |
+| [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/ayhm23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
