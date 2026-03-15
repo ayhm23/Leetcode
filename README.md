@@ -345,6 +345,7 @@ Leetcode solved questions
 | [0045-jump-game-ii](https://github.com/ayhm23/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ayhm23/Leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/ayhm23/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ayhm23/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/ayhm23/Leetcode/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -550,6 +551,7 @@ Leetcode solved questions
 | [0013-roman-to-integer](https://github.com/ayhm23/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ayhm23/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ayhm23/Leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/ayhm23/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ayhm23/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/ayhm23/Leetcode/tree/master/0231-power-of-two) |
@@ -636,4 +638,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ayhm23/Leetcode/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ayhm23/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
