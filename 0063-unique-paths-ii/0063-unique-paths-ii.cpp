@@ -5,7 +5,7 @@ public:
         //dp[i][j] is number of unique paths
 
         int m = obstacleGrid.size(), n = obstacleGrid[0].size();
-        vector<vector<int>> dp(m, vector<int> (n, -1));
+        // vector<vector<int>> dp(m, vector<int> (n, -1));
 
         vector<int> prev(n, -1);
         prev[0] = 1; //dp [0][0]
