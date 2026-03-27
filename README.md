@@ -155,6 +155,7 @@ Leetcode solved questions
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ayhm23/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -365,6 +366,7 @@ Leetcode solved questions
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ayhm23/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -542,6 +544,7 @@ Leetcode solved questions
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
+| [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 ## Two Pointers
 |  |
 | ------- |
