@@ -40,6 +40,7 @@ Leetcode solved questions
 | [0014-longest-common-prefix](https://github.com/ayhm23/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/ayhm23/Leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/ayhm23/Leetcode/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/ayhm23/Leetcode/tree/master/0115-distinct-subsequences) |
@@ -307,6 +308,7 @@ Leetcode solved questions
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/ayhm23/Leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/ayhm23/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayhm23/Leetcode/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ayhm23/Leetcode/tree/master/0135-candy) |
@@ -358,6 +360,7 @@ Leetcode solved questions
 | ------- |
 | [0022-generate-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ayhm23/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/ayhm23/Leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/ayhm23/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ayhm23/Leetcode/tree/master/0055-jump-game) |
@@ -642,6 +645,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ayhm23/Leetcode/tree/master/0002-add-two-numbers) |
+| [0044-wildcard-matching](https://github.com/ayhm23/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/ayhm23/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ayhm23/Leetcode/tree/master/0231-power-of-two) |
