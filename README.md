@@ -141,6 +141,7 @@ Leetcode solved questions
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ayhm23/Leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/ayhm23/Leetcode/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ayhm23/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/ayhm23/Leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
@@ -372,6 +373,7 @@ Leetcode solved questions
 | [0115-distinct-subsequences](https://github.com/ayhm23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/ayhm23/Leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/ayhm23/Leetcode/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ayhm23/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/ayhm23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ayhm23/Leetcode/tree/master/0213-house-robber-ii) |
