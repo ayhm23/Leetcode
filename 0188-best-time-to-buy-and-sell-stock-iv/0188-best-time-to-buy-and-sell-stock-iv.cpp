@@ -3,7 +3,6 @@ public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
         //0 and n+1th useslestt states for transaction
-        vector<vector<int>> dp(n+1, vector<int>(2*(k+1), 0));
         vector<int> curr (2*(k+1), 0);
         vector<int> next (2*(k+1), 0);
         for(int i = n-1; i >= 0; i--){
