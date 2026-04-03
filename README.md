@@ -176,6 +176,7 @@ Leetcode solved questions
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayhm23/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
@@ -323,6 +324,7 @@ Leetcode solved questions
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayhm23/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/ayhm23/Leetcode/tree/master/0860-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
@@ -396,6 +398,7 @@ Leetcode solved questions
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/ayhm23/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayhm23/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
