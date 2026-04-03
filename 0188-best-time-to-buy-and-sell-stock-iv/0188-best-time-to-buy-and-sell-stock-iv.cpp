@@ -2,22 +2,38 @@ class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
-        //0 and n+1th useslestt states for transaction
-        vector<int> curr (2*(k+1), 0);
-        vector<int> next (2*(k+1), 0);
+
+        // optimization: unlimited transactions case
+        if(k >= n/2){
+            int profit = 0;
+            for(int i = 1; i < n; i++){
+                if(prices[i] > prices[i-1])
+                    profit += prices[i] - prices[i-1];
+            }
+            return profit;
+        }
+
+        vector<int> next(2*k + 2, 0), curr(2*k + 2, 0);
+
         for(int i = n-1; i >= 0; i--){
             for(int trans = 1; trans <= 2*k; trans++){
-                int p = prices[i];
-                if(trans%2){
-                    //buy
-                    curr[trans] = max(-p +next[trans+1], next[trans]);
+                
+                if(trans % 2){ // buy
+                    curr[trans] = max(
+                        -prices[i] + next[trans+1],
+                        next[trans]
+                    );
                 }
-                else{
-                    curr[trans] = max(p + next[trans+1], next[trans]);
+                else{ // sell
+                    curr[trans] = max(
+                        prices[i] + next[trans+1],
+                        next[trans]
+                    );
                 }
             }
             next = curr;
         }
+
         return next[1];
     }
 };
