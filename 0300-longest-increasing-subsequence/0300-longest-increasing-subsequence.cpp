@@ -35,7 +35,6 @@ public:
 
 //using binary search
     int lengthOfLIS(vector<int>& nums) {
-        int n = nums.size();
         vector<int> temp;
         
         for(int x : nums){
