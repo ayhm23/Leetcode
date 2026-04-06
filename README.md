@@ -201,6 +201,7 @@ Leetcode solved questions
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayhm23/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayhm23/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -231,6 +232,7 @@ Leetcode solved questions
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 ## Counting
 |  |
 | ------- |
@@ -419,6 +421,7 @@ Leetcode solved questions
 | [1143-longest-common-subsequence](https://github.com/ayhm23/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayhm23/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Stack
 |  |
