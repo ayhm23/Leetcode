@@ -1,36 +1,39 @@
 class Solution {
 public:
-    bool isPalindrome(string &s, int i, int j) {
-        while (i < j) {
-            if (s[i] != s[j]) return false;
-            i++;
-            j--;
-        }
-        return true;
-    }
+    int minCut(string s) {
+        int n = s.length();
 
-    int DP(string &s, int i, int j, vector<vector<int>>& dp) {
-        if (i >= j) return 0;
+        // Step 1: Precompute palindrome table
+        vector<vector<bool>> pal(n, vector<bool>(n, false));
 
-        if (dp[i][j] != -1) return dp[i][j];
+        for (int i = 0; i < n; i++) pal[i][i] = true;
 
-        if (isPalindrome(s, i, j)) return dp[i][j] = 0;
+        for (int len = 2; len <= n; len++) {
+            for (int i = 0; i <= n - len; i++) {
+                int j = i + len - 1;
 
-        int mini = INT_MAX;
-
-        for (int k = i; k < j; k++) {
-            if (isPalindrome(s, i, k)) {
-                int ops = 1 + DP(s, k + 1, j, dp);
-                mini = min(mini, ops);
+                if (s[i] == s[j]) {
+                    if (len == 2) pal[i][j] = true;
+                    else pal[i][j] = pal[i+1][j-1];
+                }
             }
         }
 
-        return dp[i][j] = mini;
-    }
+        // Step 2: 1D DP
+        vector<int> dp(n, INT_MAX);
 
-    int minCut(string s) {
-        int n = s.length();
-        vector<vector<int>> dp(n, vector<int>(n, -1));
-        return DP(s, 0, n - 1, dp);
+        for (int i = 0; i < n; i++) {
+            if (pal[0][i]) {
+                dp[i] = 0;
+            } else {
+                for (int j = 0; j < i; j++) {
+                    if (pal[j+1][i]) {
+                        dp[i] = min(dp[i], 1 + dp[j]);
+                    }
+                }
+            }
+        }
+
+        return dp[n-1];
     }
 };
