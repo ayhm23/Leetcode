@@ -111,6 +111,7 @@ Leetcode solved questions
 | [0003-longest-substring-without-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/ayhm23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Array
@@ -200,6 +201,7 @@ Leetcode solved questions
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1036-rotting-oranges](https://github.com/ayhm23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1043-partition-array-for-maximum-sum](https://github.com/ayhm23/Leetcode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
@@ -297,6 +299,7 @@ Leetcode solved questions
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ayhm23/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayhm23/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -661,6 +664,7 @@ Leetcode solved questions
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Trie
 |  |
