@@ -1,20 +1,20 @@
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
+        //sum of first k element...then we removve the right most from start in winodw and add from back
+        int sum = accumulate(cardPoints.begin(), cardPoints.begin() + k, 0);
         int n = cardPoints.size();
-        
-        int curr = accumulate(cardPoints.begin(), cardPoints.begin() + k, 0);
-        int ans = curr;
+        if(n == k) return sum;
 
-        int left = k - 1, right = n - 1;
+        int ans = sum;
 
+        int left = k-1, right = n-1;
+   
         while(left >= 0){
-            curr = curr - cardPoints[left] + cardPoints[right];
-            ans = max(ans, curr);
-            left--; 
-            right--;
+            sum = sum - cardPoints[left] + cardPoints[right];
+            ans = max(sum, ans);
+            left--; right--;
         }
-
         return ans;
     }
 };
