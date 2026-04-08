@@ -11,10 +11,7 @@ public:
             mp[s[right]]++;
 
             while(mp[s[right]] > 1){
-                mp[s[left]]--;
-                if(mp[s[left]] == 0){
-                    mp.erase(s[left]);
-                }
+                if(--mp[s[left]] == 0) mp.erase(s[left]);
                 left++;
             }
 
