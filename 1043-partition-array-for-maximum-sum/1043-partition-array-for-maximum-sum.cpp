@@ -23,11 +23,12 @@ public:
         dp[n] = 0;
         for(int i = n-1; i >= 0; i--){
             int maxi = 0;
+            int currMax = 0;
             for(int j = i; j < i + k && j < n; j++){
-                int elem = *max_element(arr.begin() + i, arr.begin() + j + 1);
+                currMax = max(arr[j], currMax);
                 int size = j - i + 1;
 
-                int ops = elem*size + dp[j+1];
+                int ops = currMax*size + dp[j+1];
                 maxi = max(maxi, ops);
             }
             dp[i] = maxi;
