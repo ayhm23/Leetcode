@@ -37,6 +37,7 @@ Leetcode solved questions
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## String
 |  |
@@ -75,6 +76,7 @@ Leetcode solved questions
 | [1092-shortest-common-supersequence](https://github.com/ayhm23/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ayhm23/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayhm23/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
@@ -121,6 +123,7 @@ Leetcode solved questions
 | [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Array
