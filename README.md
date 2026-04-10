@@ -32,6 +32,7 @@ Leetcode solved questions
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/ayhm23/Leetcode/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ayhm23/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
@@ -116,6 +117,7 @@ Leetcode solved questions
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayhm23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/ayhm23/Leetcode/tree/master/0904-fruit-into-baskets) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
@@ -205,6 +207,7 @@ Leetcode solved questions
 | [0904-fruit-into-baskets](https://github.com/ayhm23/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
@@ -670,6 +673,7 @@ Leetcode solved questions
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ayhm23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Trie
