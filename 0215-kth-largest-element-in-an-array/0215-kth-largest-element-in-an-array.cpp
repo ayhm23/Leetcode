@@ -1,39 +1,33 @@
 class Solution {
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-        int targetIdx = nums.size() - k;
-        return quickSelect(nums, 0, nums.size() - 1, targetIdx);
+    void heapify(vector<int>& nums, int n, int i){
+        int largest = i;
+
+        int r = 2*i + 2, l = 2*i + 1;
+        if(r < n && nums[r] > nums[largest]) largest = r;
+        if(l < n && nums[l] > nums[largest]) largest = l;
+
+        if(largest != i){
+            swap(nums[largest], nums[i]);
+            heapify(nums, n, largest);
+        }
     }
-    
-    int quickSelect(vector<int>& nums, int left, int right, int targetIdx) {
-        if (left == right) {
-            return nums[left];
-        }
 
-        int pivot = nums[left];
-        int low = left;
-        int high = right;
-
-        while (low <= high) {
-            while (low <= high && nums[low] < pivot) {
-                low++;
-            }
-            while (low <= high && nums[high] > pivot) {
-                high--;
-            }
-            if (low <= high) {
-                swap(nums[low], nums[high]);
-                low++;
-                high--;
-            }
+    void makeMaxHeap(vector<int>& nums, int n){
+        for(int i = (n-1)/2; i >= 0; i--){
+            heapify(nums, n, i); // ✅ fixed
         }
+    }
 
-        if (targetIdx <= high) {
-            return quickSelect(nums, left, high, targetIdx);
-        } else if (targetIdx >= low) {
-            return quickSelect(nums, low, right, targetIdx);
-        } else {
-            return nums[targetIdx];
+    int findKthLargest(vector<int>& nums, int k) {
+        int n = nums.size();
+        makeMaxHeap(nums, n);
+
+        for(int i = 1; i < k; i++){
+            swap(nums[0], nums[nums.size()-1]); // ✅ fixed
+            nums.pop_back();
+            heapify(nums, nums.size(), 0);
         }
+        return nums[0];
     }
 };
