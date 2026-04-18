@@ -261,6 +261,7 @@ Leetcode solved questions
 | [0229-majority-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ayhm23/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/ayhm23/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -517,6 +518,7 @@ Leetcode solved questions
 | [0023-merge-k-sorted-lists](https://github.com/ayhm23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ayhm23/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/ayhm23/Leetcode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
@@ -667,6 +669,7 @@ Leetcode solved questions
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
@@ -751,6 +754,7 @@ Leetcode solved questions
 | ------- |
 | [0146-lru-cache](https://github.com/ayhm23/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
+| [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0460-lfu-cache](https://github.com/ayhm23/Leetcode/tree/master/0460-lfu-cache) |
 | [0901-online-stock-span](https://github.com/ayhm23/Leetcode/tree/master/0901-online-stock-span) |
@@ -765,6 +769,7 @@ Leetcode solved questions
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/ayhm23/Leetcode/tree/master/0901-online-stock-span) |
 ## Doubly-Linked List
 |  |
