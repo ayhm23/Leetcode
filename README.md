@@ -136,6 +136,7 @@ Leetcode solved questions
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 ## Array
 |  |
@@ -248,6 +249,7 @@ Leetcode solved questions
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
@@ -279,6 +281,7 @@ Leetcode solved questions
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Counting
 |  |
 | ------- |
@@ -344,6 +347,7 @@ Leetcode solved questions
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayhm23/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Binary Tree
 |  |
@@ -390,6 +394,7 @@ Leetcode solved questions
 | [0846-hand-of-straights](https://github.com/ayhm23/Leetcode/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/ayhm23/Leetcode/tree/master/0860-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Depth-First Search
@@ -717,6 +722,7 @@ Leetcode solved questions
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Trie
 |  |
 | ------- |
