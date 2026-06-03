@@ -1,25 +1,18 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        //a1 : count all 0s 1s 2s and give array accordnigly
-        //a2 : left right and read pointer
-        //Dutch flag colour algorithm
-
-        int n = nums.size();
-        int left = 0; int right = n-1;
-        int reader = 0;
-        //left >=  reader and right <= reader
-        while(reader <= right){
-            if(nums[reader] == 0){
-                swap(nums[left], nums[reader]);
-                left++; reader++;
+        //3 pointer
+        int lo = 0, mid = 0, hi = nums.size()-1;
+        //make sure that all zeros are to left of mid and all 2s are to the right
+        while(mid <= hi){
+            if(nums[mid] == 0){
+                swap(nums[lo++], nums[mid++]);
             }
-            else if(nums[reader] == 1){
-                reader++;
+            else if(nums[mid] == 1){
+                mid++;
             }
-            else if(nums[reader] == 2){
-                swap(nums[right], nums[reader]);
-                right--;
+            else{
+                swap(nums[hi--], nums[mid]);
             }
         }
     }
