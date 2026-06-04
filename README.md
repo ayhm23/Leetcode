@@ -187,6 +187,7 @@ Leetcode solved questions
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/ayhm23/Leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
+| [0152-maximum-product-subarray](https://github.com/ayhm23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ayhm23/Leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/ayhm23/Leetcode/tree/master/0169-majority-element) |
@@ -466,6 +467,7 @@ Leetcode solved questions
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayhm23/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0132-palindrome-partitioning-ii](https://github.com/ayhm23/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0152-maximum-product-subarray](https://github.com/ayhm23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ayhm23/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/ayhm23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ayhm23/Leetcode/tree/master/0213-house-robber-ii) |
