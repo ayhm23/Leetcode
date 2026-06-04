@@ -159,6 +159,7 @@ Leetcode solved questions
 | [0048-rotate-image](https://github.com/ayhm23/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/ayhm23/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ayhm23/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/ayhm23/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ayhm23/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ayhm23/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ayhm23/Leetcode/tree/master/0057-insert-interval) |
@@ -628,6 +629,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ayhm23/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/ayhm23/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/ayhm23/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ayhm23/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -742,6 +744,7 @@ Leetcode solved questions
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ayhm23/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Linked List
