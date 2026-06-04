@@ -15,6 +15,7 @@ Leetcode solved questions
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/ayhm23/Leetcode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/ayhm23/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ayhm23/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ayhm23/Leetcode/tree/master/0146-lru-cache) |
@@ -179,6 +180,7 @@ Leetcode solved questions
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayhm23/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayhm23/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayhm23/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/ayhm23/Leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
@@ -815,4 +817,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ayhm23/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
