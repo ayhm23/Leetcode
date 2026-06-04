@@ -107,6 +107,7 @@ Leetcode solved questions
 | [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ayhm23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0654-maximum-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0654-maximum-binary-tree) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
@@ -211,6 +212,7 @@ Leetcode solved questions
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ayhm23/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -343,6 +345,7 @@ Leetcode solved questions
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ayhm23/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0700-search-in-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
@@ -551,6 +554,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ayhm23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -818,13 +822,19 @@ Leetcode solved questions
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ayhm23/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ayhm23/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
