@@ -232,6 +232,7 @@ Leetcode solved questions
 | [0846-hand-of-straights](https://github.com/ayhm23/Leetcode/tree/master/0846-hand-of-straights) |
 | [0854-making-a-large-island](https://github.com/ayhm23/Leetcode/tree/master/0854-making-a-large-island) |
 | [0860-lemonade-change](https://github.com/ayhm23/Leetcode/tree/master/0860-lemonade-change) |
+| [0875-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0904-fruit-into-baskets](https://github.com/ayhm23/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -350,6 +351,7 @@ Leetcode solved questions
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0700-search-in-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/ayhm23/Leetcode/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ayhm23/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ayhm23/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayhm23/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
