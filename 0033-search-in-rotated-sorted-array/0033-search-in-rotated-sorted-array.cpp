@@ -1,35 +1,27 @@
 class Solution {
 public:
-    int bs(vector<int>& nums, int low, int high, int target) {
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (nums[mid] == target) return mid;
-            else if (nums[mid] > target) high = mid - 1;
-            else low = mid + 1;
-        }
-        return -1;
-    }
-
     int search(vector<int>& nums, int target) {
-        int n = nums.size();
-        int low = 0, high = n - 1;
-        //LEFT ROTATION OR RIGHT.. FINDING PIVOT IS SAME
-        // Find pivot index
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (nums[mid] > nums[high]) {
-                low = mid + 1;
-            } else {
-                high = mid;
+        int lo = 0, hi = nums.size()-1;
+        
+        while(lo <= hi){
+            int mid = lo + (hi-lo)/2;
+            if(nums[mid] == target) return mid;
+            //check which side is sorted
+            if(nums[mid] >= nums[lo]){//left sort 
+                if(target < nums[mid] && target >= nums[lo]){
+                    hi = mid-1;
+                }
+                else{
+                    lo = mid+1;
+                }
+            }
+            else{// right sorted
+                if(target <= nums[hi] && target > nums[mid]){
+                    lo = mid + 1;
+                }
+                else hi = mid - 1;
             }
         }
-        int pivot = low;
-
-        // Search in correct half
-        if (target >= nums[pivot] && target <= nums[n - 1]) {
-            return bs(nums, pivot, n - 1, target);
-        } else {
-            return bs(nums, 0, pivot - 1, target);
-        }
+        return -1;
     }
 };
