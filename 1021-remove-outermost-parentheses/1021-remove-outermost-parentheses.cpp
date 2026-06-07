@@ -1,19 +1,13 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-        // '(' = 1 and ')' = -1
-        int score = 0;
-        string ans;
+        int cnt = 0; string ans = "";
         for(char c : s){
-            int p = (c == '(' ? 1 : -1);
-            if(score == 0 || score + p == 0){
-                score+=p;
-                continue;
+            int score = (c == '(') ? 1 : -1;
+            if (!(cnt + score == 0 || !cnt)) {
+                ans += c;
             }
-            else{
-                ans.push_back(c);
-            }
-            score+=p;
+            cnt += score;
         }
         return ans;
     }
