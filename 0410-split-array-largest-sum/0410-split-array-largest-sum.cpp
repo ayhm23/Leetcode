@@ -1,33 +1,27 @@
 class Solution {
 public:
-    bool isPossible(vector<int>& nums, int k, int n){
-        int tempSum = 0, count = 1;
-        for(int i : nums){
-            if(tempSum + i > n){
-                count++;
-                tempSum = i;
-                if(count > k){
-                    return false;
-                }
+    bool canSplit(vector<int>& nums, int max, int k){
+        int splits = 1, curr = 0;
+        for(int x : nums){
+            if(x + curr > max){
+                splits+=1; curr = x;
             }
-            else{
-                tempSum+=i;
-            }
+            else curr += x;
         }
-        return true;
+        return splits <= k ? true : false; 
     }
     int splitArray(vector<int>& nums, int k) {
-        int low = *max_element(nums.begin(), nums.end());
-        int high = accumulate(nums.begin(), nums.end(), 0);
-        int ans = 1;
-        while(low <= high){
-            int mid = low + (high - low)/2;
-            if(isPossible(nums, k, mid)){
-                ans = mid;
-                high = mid - 1;
+        int lo = *max_element(nums.begin(), nums.end());
+        int hi = accumulate(nums.begin(), nums.end(), 0);
+        int ans = lo;
+
+        while(lo <= hi){
+            int mid = lo + (hi - lo)/2;
+            if(canSplit(nums, mid, k)){
+                ans = mid; hi = mid - 1;
             }
             else{
-                low = mid + 1;
+                lo = mid + 1;
             }
         }
         return ans;
