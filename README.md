@@ -262,6 +262,7 @@ Leetcode solved questions
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -365,6 +366,7 @@ Leetcode solved questions
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Binary Tree
 |  |
@@ -660,6 +662,7 @@ Leetcode solved questions
 | [1277-count-square-submatrices-with-all-ones](https://github.com/ayhm23/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
 ## Topological Sort
