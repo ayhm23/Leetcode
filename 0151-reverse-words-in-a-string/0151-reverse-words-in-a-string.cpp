@@ -1,25 +1,18 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int i = s.size() - 1;
-        string ans = "";
-
-        while (i >= 0) {
-            // skip spaces
-            while (i >= 0 && s[i] == ' ') i--;
-
-            if (i < 0) break;
-
-            int j = i;
-
-            // move to start of word
-            while (i >= 0 && s[i] != ' ') i--;
-
-            // extract word
-            if (!ans.empty()) ans += " ";
-            ans += s.substr(i + 1, j - i);
+        istringstream iss(s);
+        vector<string> words;
+        string word;
+        while(iss >> word){
+            words.push_back(word);
         }
-
-        return ans;
+        reverse(words.begin(), words.end());
+        word = "";
+        for(int i = 0; i < words.size(); i++){
+            word += words[i]; 
+            if(i + 1 != words.size()) word += " ";
+        }
+        return word;
     }
 };
