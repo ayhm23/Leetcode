@@ -45,6 +45,7 @@ Leetcode solved questions
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## String
@@ -88,6 +89,7 @@ Leetcode solved questions
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -305,6 +307,7 @@ Leetcode solved questions
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/ayhm23/Leetcode/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ayhm23/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Tree
 |  |
