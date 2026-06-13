@@ -1,22 +1,26 @@
 class Solution {
 public:
-    static const long long MOD = 1e9 + 7;
+    typedef long long ll;
+    const ll MOD = 1e9 + 7;
 
-    long long power(long long a, long long b) {
-        if (b == 0) return 1;
+    ll power(ll base, ll exp) {
+        if (exp == 0) return 1;
 
-        long long half = power(a, b / 2);
-        long long res = (half * half) % MOD;
+        ll half = power(base, exp / 2);
+        half = (half * half) % MOD;
 
-        if (b % 2)
-            res = (res * a) % MOD;
-
-        return res;
+        if (exp % 2)
+            return (half * base) % MOD;
+        else
+            return half;
     }
 
     int countGoodNumbers(long long n) {
-        long long even = (n + 1) / 2; // even indices
-        long long odd  = n / 2;       // odd indices
+        // {0, 2, 4, 6, 8} -- even inices
+        // {2, 3, 5, 7} -- odd indices
+
+        ll odd = n / 2;
+        ll even = (n + 1)/2; 
 
         return (power(5, even) * power(4, odd)) % MOD;
     }
