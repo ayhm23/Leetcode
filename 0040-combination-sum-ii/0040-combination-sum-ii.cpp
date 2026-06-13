@@ -1,29 +1,25 @@
 class Solution {
 public:
-
-    void combination(vector<vector<int>> &ans, int idx, int remain, vector<int> &curr, vector<int> &nums){
-        if(remain == 0){
-            ans.push_back(curr);
-            return;
+    vector<vector<int>> ans;
+    void count(vector<int>& candidates, int target, vector<int>&curr, int sum, int i){
+        if(sum == target){
+            ans.push_back(curr); return;
         }
+        if(i == candidates.size() || sum > target) return;
 
-        if(idx == nums.size() || remain < nums[idx]) return;
+        //if not taking..then skip dupilicate elemnets
+        int j = i;
+        while(j < candidates.size() && candidates[j] == candidates[i]) j++;
+        count(candidates, target, curr, sum, j);
 
-        //include next
-        curr.push_back(nums[idx]);
-        combination(ans, idx+1, remain-nums[idx], curr, nums);
+        curr.push_back(candidates[i]);
+        count(candidates, target, curr, sum + candidates[i], i+1);
         curr.pop_back();
-
-        int next = idx + 1;
-        while(next < nums.size() && nums[next] == nums[idx]) next++;
-
-        combination(ans, next, remain, curr, nums);
     }
-
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        vector<int> curr;
         sort(candidates.begin(), candidates.end());
-        vector<vector<int>> ans; vector<int> curr;
-        combination(ans, 0, target, curr, candidates);
+        count(candidates, target, curr, 0, 0);
         return ans;
     }
 };
