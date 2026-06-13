@@ -5,7 +5,7 @@ public:
     int n;
 
     
-    ll atoi(string s, ll val, int i){
+    ll atoi(const string& s, ll val, int i){
         if(i == n) return val;
         ll temp = s[i] - '0';
         if(!(temp >= 0 && temp <= 9)) return val;
