@@ -1,27 +1,20 @@
 class Solution {
 public:
-    void backtrack(int start, int remain, vector<int>& candidates,
-                   vector<int>& path, vector<vector<int>>& ans) {
-
-        if (remain == 0) {
-            ans.push_back(path);
-            return;
+    vector<vector<int>> ans;
+    void count(vector<int>& candidates, int target, vector<int> curr, int sum, int i){
+        if(sum == target){
+            ans.push_back(curr); return;
         }
+        if(i == candidates.size() || sum > target) return;
 
-        for (int i = start; i < candidates.size(); i++) {
-            if (candidates[i] > remain) break;
+        count(candidates, target, curr, sum, i+1);
 
-            path.push_back(candidates[i]);
-            backtrack(i, remain - candidates[i], candidates, path, ans);
-            path.pop_back();
-        }
+        curr.push_back(candidates[i]);
+        count(candidates, target, curr, sum + candidates[i], i);
+        curr.pop_back();
     }
-
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        sort(candidates.begin(), candidates.end());  // 🔑 pruning
-        vector<vector<int>> ans;
-        vector<int> path;
-        backtrack(0, target, candidates, path, ans);
+        count(candidates, target, {}, 0, 0);
         return ans;
     }
 };
