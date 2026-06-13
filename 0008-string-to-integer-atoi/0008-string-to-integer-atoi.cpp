@@ -1,31 +1,33 @@
 class Solution {
 public:
+    typedef long long ll;
+    ll MOD = INT_MAX;
+    int n;
+
+    
+    ll atoi(string s, ll val, int i){
+        if(i == n) return val;
+        ll temp = s[i] - '0';
+        if(!(temp >= 0 && temp <= 9)) return val;
+
+        ll tempVal = val * 10 + temp;
+        if(tempVal > MOD) return MOD;
+
+        return atoi(s, tempVal, i+1);
+    }
     int myAtoi(string s) {
-        int n = s.length();
-        long ans = 0;
-        int i = 0;
-        int sign = 1;
+        int i = 0, sign = 1;
+        n = s.length();
+        while(i < n &&s[i] == ' ') i++;
 
-        // 1) Skip whitespaces
-        while (i < n && s[i] == ' ') i++;
-
-        // 2) Handle optional sign
         if (i < n && (s[i] == '+' || s[i] == '-')) {
             if (s[i] == '-') sign = -1;
             i++;
         }
+        MOD = (sign == 1) ? (ll)INT_MAX : (ll)INT_MAX + 1;
 
-        // 3) Process digits
-        while (i < n && isdigit(s[i])) {
-            ans = ans * 10 + (s[i] - '0');
+        ll val = atoi(s, 0, i);
 
-            // 4) Overflow handling
-            if (ans * sign >= INT_MAX) return INT_MAX;
-            if (ans * sign <= INT_MIN) return INT_MIN;
-
-            i++;
-        }
-
-        return ans * sign;
+        return sign * val;
     }
 };
