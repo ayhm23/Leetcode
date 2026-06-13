@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> ans;
-    void count(vector<int>& candidates, int target, vector<int> curr, int sum, int i){
+    void count(vector<int>& candidates, int target, vector<int>&curr, int sum, int i){
         if(sum == target){
             ans.push_back(curr); return;
         }
@@ -14,7 +14,8 @@ public:
         curr.pop_back();
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        count(candidates, target, {}, 0, 0);
+        vector<int> curr;
+        count(candidates, target, curr, 0, 0);
         return ans;
     }
 };
