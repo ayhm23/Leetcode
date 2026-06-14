@@ -29,8 +29,7 @@ public:
             for(int j = 0; j < n; j++){
                 if(board[i][j] == word[0]){
                     //starting point
-                    ans = dfs(board, word, 0, i, j);
-                    if(ans) return true;
+                    if(dfs(board, word, 0, i, j)) return true;
                 }
             }
         }
