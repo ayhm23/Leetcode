@@ -24,7 +24,6 @@ public:
     bool exist(vector<vector<char>>& board, string word) {
         int m = board.size(), n = board[0].size();
         vis.assign(m, vector<int> (n, 0));
-        bool ans = false;
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(board[i][j] == word[0]){
