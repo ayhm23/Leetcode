@@ -529,6 +529,7 @@ Leetcode solved questions
 | [0144-binary-tree-preorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ayhm23/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/ayhm23/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/ayhm23/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -815,6 +816,7 @@ Leetcode solved questions
 | ------- |
 | [0146-lru-cache](https://github.com/ayhm23/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ayhm23/Leetcode/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/ayhm23/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0295-find-median-from-data-stream](https://github.com/ayhm23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/ayhm23/Leetcode/tree/master/0355-design-twitter) |
@@ -823,6 +825,7 @@ Leetcode solved questions
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/ayhm23/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/ayhm23/Leetcode/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
 |  |
