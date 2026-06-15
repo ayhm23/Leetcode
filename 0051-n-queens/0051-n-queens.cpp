@@ -1,49 +1,47 @@
 class Solution {
 public:
-    bool check(vector<string>& board, int row, int col, int n) {
-        // check left side of the row
-        for (int j = 0; j < col; j++) {
-            if (board[row][j] == 'Q') return false;
+    vector<vector<string>> ans;
+
+    bool isValid(vector<string>& curr, int i, int j, int n) {
+        // Check column
+        for (int row = 0; row < i; row++) {
+            if (curr[row][j] == 'Q')
+                return false;
         }
 
-        // check upper-left diagonal
-        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q') return false;
+        // Check upper-left diagonal
+        for (int r = i - 1, c = j - 1; r >= 0 && c >= 0; r--, c--) {
+            if (curr[r][c] == 'Q')
+                return false;
         }
 
-        // check lower-left diagonal
-        for (int i = row, j = col; i < n && j >= 0; i++, j--) {
-            if (board[i][j] == 'Q') return false;
+        // Check upper-right diagonal
+        for (int r = i - 1, c = j + 1; r >= 0 && c < n; r--, c++) {
+            if (curr[r][c] == 'Q')
+                return false;
         }
 
         return true;
     }
 
-    void solve(vector<vector<string>>& ans, int col, int n, vector<string>& board) {
-        if (col == n) {
-            ans.push_back(board);
+    void solve(int i, int n, vector<string>& curr) {
+        if (i == n) {
+            ans.push_back(curr);
             return;
         }
 
-        for (int row = 0; row < n; row++) {
-            if (check(board, row, col, n)) {
-                board[row][col] = 'Q';
-                solve(ans, col + 1, n, board);
-                board[row][col] = '.'; // backtrack
+        for (int j = 0; j < n; j++) {
+            if (isValid(curr, i, j, n)) {
+                curr[i][j] = 'Q';
+                solve(i + 1, n, curr);
+                curr[i][j] = '.';
             }
         }
     }
 
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board(n);
-
-        string s(n, '.');   
-        for (int i = 0; i < n; i++) {
-            board[i] = s;
-        }
-
-        solve(ans, 0, n, board);
-        return ans;         
+        vector<string> curr(n, string(n, '.'));
+        solve(0, n, curr);
+        return ans;
     }
 };
