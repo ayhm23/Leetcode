@@ -3,41 +3,30 @@ public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
         stack<int> st;
 
-        for (int i = 0; i < asteroids.size(); i++) {
-            int curr = asteroids[i];
+        for (int x : asteroids) {
             bool alive = true;
 
-            // collision only when stack top is +ve and curr is -ve
-            while (!st.empty() && st.top() > 0 && curr < 0) {
-
-                if (abs(st.top()) < abs(curr)) {
-                    // stack asteroid explodes
-                    st.pop();
-                    continue;
-                }
-                else if (abs(st.top()) == abs(curr)) {
-                    // both explode
-                    st.pop();
+            while (alive && x < 0 && !st.empty() && st.top() > 0) {
+                if (st.top() < -x) {
+                    st.pop();              // positive asteroid explodes
+                } else if (st.top() == -x) {
+                    st.pop();              // both explode
                     alive = false;
-                    break;
-                }
-                else {
-                    // current explodes
-                    alive = false;
-                    break;
+                } else {
+                    alive = false;         // current negative explodes
                 }
             }
 
-            if (alive) {
-                st.push(curr);
-            }
+            if (alive)
+                st.push(x);
         }
 
-        vector<int> ans(st.size());
-        for (int i = ans.size() - 1; i >= 0; i--) {
-            ans[i] = st.top();
+        vector<int> ans;
+        while (!st.empty()) {
+            ans.push_back(st.top());
             st.pop();
         }
+        reverse(ans.begin(), ans.end());
         return ans;
     }
 };
