@@ -28,6 +28,7 @@ public:
         int i = 0;
         while(i < ans.size() && ans[i] == '0')i++;
 
-        return ans.substr(i).size() ? ans.substr(i) : "0";
+        string res = ans.substr(i);
+        return res.empty() ? "0" : res;
     }
 };
