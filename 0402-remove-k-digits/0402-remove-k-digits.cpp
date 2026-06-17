@@ -2,35 +2,32 @@ class Solution {
 public:
     string removeKdigits(string num, int k) {
         stack<char> st;
+        int n = num.size();
 
-        // Step 1: Build monotonic increasing stack
-        for(char c : num) {
-            while(!st.empty() && k > 0 && st.top() > c) {
-                st.pop();
-                k--;
+        for(int i = 0; i < n; i++){
+            while(!st.empty() && k > 0 && st.top() > num[i]){
+                st.pop(); k--;
             }
-            st.push(c);
-        }
 
-        // Step 2: If removals left, remove from end
+            st.push(num[i]);
+        }
         while(k > 0 && !st.empty()) {
-            st.pop();
-            k--;
+            st.pop(); k--;
         }
 
-        // Step 3: Build result string
-        string ans;
-        while(!st.empty()) {
+        if(st.empty()) return "0";
+
+        string ans = "";
+
+        while(!st.empty()){
             ans.push_back(st.top());
             st.pop();
         }
+
         reverse(ans.begin(), ans.end());
+        int i = 0;
+        while(i < ans.size() && ans[i] == '0')i++;
 
-        // Step 4: Remove leading zeros
-        int idx = 0;
-        while(idx < ans.size() && ans[idx] == '0') idx++;
-        ans = ans.substr(idx);
-
-        return ans.empty() ? "0" : ans;
+        return ans.substr(i).size() ? ans.substr(i) : "0";
     }
 };
