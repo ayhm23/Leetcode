@@ -1,34 +1,46 @@
 class Solution {
 public:
-    int Area(vector<int>& nums){
+    int largestRectangleArea(vector<int>& heights) {
+        //nse and pse index for each position
+        int n = heights.size();
+        vector<int> nse(n, n), pse(n, n);
+
         stack<int> st;
-        int maxA = 0;
-        int n = nums.size();
-        for(int i = 0; i <= n; i++){
-            while(!st.empty() && (i == n || nums[st.top()] >= nums[i])){
-                int height = nums[st.top()];
-                st.pop();
-                int width;
-                if(st.empty()) width = i;
-                else width = i - st.top() - 1;
-                maxA = max(maxA, width * height);
-            }
+        for(int i = 0; i < n; i++){
+            while(!st.empty() && heights[st.top()] >= heights[i]) st.pop();
+            pse[i] = st.empty() ? -1 : st.top();
             st.push(i);
         }
-        return maxA;
-    }
-    int maximalRectangle(vector<vector<char>>& matrix) {
-        int maxA = 0;
-        int n = matrix.size(), m = matrix[0].size(); 
-        vector<int> heights (m, 0);
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
-                if(matrix[i][j] == '1') heights[j]++;
-                else heights[j] = 0;
-            }
-            int area = Area(heights);
-            maxA = max(maxA, area);
+        while(!st.empty()) st.pop();
+
+        for(int i = n-1; i >= 0; i--){
+            while(!st.empty() && heights[st.top()] >= heights[i]) st.pop();
+            nse[i] = st.empty() ? n : st.top();
+            st.push(i);
         }
-        return maxA;
+
+        int maxx = 0;
+
+        for(int i = 0; i < n; i++){
+            maxx = max(maxx, heights[i]*(nse[i]-pse[i]-1));
+        }
+        return maxx;
+    }
+
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        vector<int> histogram;
+        int rows = matrix.size(), cols = matrix[0].size();
+        int maxx = 0;
+        histogram.assign(cols, 0);
+        for(int i = 0; i < rows; i++){
+            //histogram calcultion
+            for(int j = 0; j < cols; j++){
+                histogram[j] += (matrix[i][j] == '0' ? -histogram[j] : 1); 
+            }
+
+            maxx = max(maxx, largestRectangleArea(histogram));
+        }
+
+        return maxx;
     }
 };
