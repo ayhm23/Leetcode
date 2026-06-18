@@ -1,42 +1,47 @@
 class LRUCache {
 public:
-    int cap;
-    list<pair<int,int>> dll;  
+    list<pair<int,int>> dll; 
     unordered_map<int, list<pair<int,int>>::iterator> mp;
+    int cap;
 
     LRUCache(int capacity) {
         cap = capacity;
+    }
+
+    void makeRecentlyUsed(int key, int value) {
+        dll.push_front({key, value});
+        mp[key] = dll.begin();
     }
 
     int get(int key) {
         if(mp.find(key) == mp.end())
             return -1;
 
-        // move accessed node to front (MRU)
-        auto curr = mp[key];
-        int value = curr->second;
+        auto it = mp[key];
+        int val = it->second;
 
-        dll.erase(curr);
-        dll.push_front({key, value});
-        mp[key] = dll.begin();
+        dll.erase(it);
+        mp.erase(key);
 
-        return value;
+        makeRecentlyUsed(key, val);
+
+        return val;
     }
 
     void put(int key, int value) {
-        // key already exists
+
         if(mp.find(key) != mp.end()) {
-            dll.erase(mp[key]);
+            auto it = mp[key];
+            dll.erase(it);
+            mp.erase(key);
         }
-        // cache full
-        else if(dll.size() == cap) {
-            auto lru = dll.back();
-            mp.erase(lru.first);
+
+        if(dll.size() == cap) {
+            auto last = dll.back();
+            mp.erase(last.first);
             dll.pop_back();
         }
 
-        // insert new node at front
-        dll.push_front({key, value});
-        mp[key] = dll.begin();
+        makeRecentlyUsed(key, value);
     }
 };
