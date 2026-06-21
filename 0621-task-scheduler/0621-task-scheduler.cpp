@@ -1,24 +1,39 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        if(n == 0) return tasks.size();
-
         vector<int> freq(26, 0);
-        
-        for(char c : tasks){
-            freq[c - 'A']++;
+        for(int i = 0; i < tasks.size(); i++){
+            freq[tasks[i] - 'A']++;
         }
 
-        int maxF = *max_element(freq.begin(), freq.end());
-
-        int count = 0;
-        for(int f : freq){
-            if(f == maxF) count++;
+        priority_queue<int> maxH;
+        for (int f : freq) {
+            if (f > 0)
+                maxH.push(f);
         }
-        
-        int calculated = (maxF - 1) * (n + 1) + count;
-        
-        // Step 5: Return the maximum of total tasks or calculated (in case no idle needed)
-        return max((int)tasks.size(), calculated);
+        queue<pair<int, int>> coolDown; //{remaining freq, cooldown time}
+
+        //allot cpu to max avaliable freq
+        int time = 0;
+        while (!maxH.empty() || !coolDown.empty()) {
+            time++;
+
+            // bring back cooled tasks
+            while (!coolDown.empty() && coolDown.front().second <= time) {
+                maxH.push(coolDown.front().first);
+                coolDown.pop();
+            }
+
+            if (!maxH.empty()) {
+                int curr = maxH.top();
+                maxH.pop();
+
+                curr--;
+
+                if (curr > 0)
+                    coolDown.push({curr, time + n + 1});
+            }
+        }
+        return time;
     }
 };
