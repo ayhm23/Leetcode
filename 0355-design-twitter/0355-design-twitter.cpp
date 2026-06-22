@@ -1,58 +1,61 @@
 class Twitter {
-public:
-    int time;
-    unordered_map<int, vector<pair<int,int>>> tweets;
+private:
+    int timer;
     unordered_map<int, unordered_set<int>> follows;
+    unordered_map<int, vector<pair<int,int>>> tweets;
 
+public:
     Twitter() {
-        time = 0;
+        timer = 0;
     }
-    
+
     void postTweet(int userId, int tweetId) {
-        tweets[userId].push_back({time++, tweetId});
+        tweets[userId].push_back({timer++, tweetId});
     }
-    
+
     vector<int> getNewsFeed(int userId) {
-        vector<int> res;
 
-        // max heap: {time, tweetId, userId, index}
-        using T = tuple<int,int,int,int>;
-        priority_queue<T> pq;
-
-        // include self
         follows[userId].insert(userId);
 
-        // push latest tweet of each followee
-        for (int user : follows[userId]) {
-            if (tweets[user].empty()) continue;
+        priority_queue<vector<int>> pq;
+        // {timestamp, tweetId, userId, index}
 
-            int idx = tweets[user].size() - 1;
-            auto [t, id] = tweets[user][idx];
-            pq.push({t, id, user, idx});
-        }
+        for (int followee : follows[userId]) {
+            int sz = tweets[followee].size();
 
-        // get top 10 tweets
-        while (!pq.empty() && res.size() < 10) {
-            auto [t, id, user, idx] = pq.top();
-            pq.pop();
-
-            res.push_back(id);
-
-            // push next tweet from same user
-            if (idx > 0) {
-                auto [nt, nid] = tweets[user][idx - 1];
-                pq.push({nt, nid, user, idx - 1});
+            if (sz > 0) {
+                auto &[time, tweetId] = tweets[followee][sz - 1];
+                pq.push({time, tweetId, followee, sz - 1});
             }
         }
 
-        return res;
+        vector<int> ans;
+
+        while (!pq.empty() && ans.size() < 10) {
+
+            auto curr = pq.top();
+            pq.pop();
+
+            int time = curr[0];
+            int tweetId = curr[1];
+            int user = curr[2];
+            int idx = curr[3];
+
+            ans.push_back(tweetId);
+
+            if (idx > 0) {
+                auto &[prevTime, prevTweet] = tweets[user][idx - 1];
+                pq.push({prevTime, prevTweet, user, idx - 1});
+            }
+        }
+
+        return ans;
     }
-    
+
     void follow(int followerId, int followeeId) {
-        if (followerId != followeeId)
-            follows[followerId].insert(followeeId);
+        follows[followerId].insert(followeeId);
     }
-    
+
     void unfollow(int followerId, int followeeId) {
         if (followerId != followeeId)
             follows[followerId].erase(followeeId);
