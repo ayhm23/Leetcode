@@ -3,18 +3,34 @@ public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
         if (hand.size() % groupSize != 0) return false;
 
-        map<int,int> freq;
-        for (int x : hand) freq[x]++;
+        unordered_map<int, int> mp;
+        priority_queue<int, vector<int>, greater<int>> pq;
 
-        while (!freq.empty()) {
-            int start = freq.begin()->first;
-            for (int i = 0; i < groupSize; i++) {
-                int x = start + i;
-                auto it = freq.find(x);
-                if (it == freq.end()) return false;
-                if (--it->second == 0) freq.erase(it);
+        for (int x : hand)
+            mp[x]++;
+
+        for (auto &[num, cnt] : mp)
+            pq.push(num);
+
+        while (!pq.empty()) {
+            int start = pq.top();
+
+            for (int card = start; card < start + groupSize; card++) {
+
+                if (mp[card] == 0)
+                    return false;
+
+                mp[card]--;
+
+                if (mp[card] == 0) {
+                    if (card != pq.top())
+                        return false;
+
+                    pq.pop();
+                }
             }
         }
+
         return true;
     }
 };
