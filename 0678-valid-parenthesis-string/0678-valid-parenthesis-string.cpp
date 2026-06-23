@@ -1,29 +1,22 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-
-        int low = 0, high = 0;
-
+        //lo = min possible open vbrackets, // hi = max possible open brackets
+        int lo = 0, hi = 0;
         for(char c : s){
-
             if(c == '('){
-                low++;
-                high++;
+                lo++; hi++;
             }
-
             else if(c == ')'){
-                if(low > 0) low--;
-                high--;
+                lo--; hi--;
             }
-
-            else{ // '*'
-                if(low > 0) low--;
-                high++;
+            else{
+                if(lo > 0) lo--;
+                hi++;
             }
-
-            if(high < 0) return false;
+            if(hi < 0) return false;
+            lo = max(lo, 0);
         }
-
-        return low == 0;
+        return lo == 0;
     }
 };
