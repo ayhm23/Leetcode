@@ -14,8 +14,8 @@ public:
                 if(lo > 0) lo--;
                 hi++;
             }
-            if(hi < 0) return false;
-            lo = max(lo, 0);
+            if(hi < 0) return false; //impossible to come back
+            lo = max(lo, 0); //using * fot only (
         }
         return lo == 0;
     }
