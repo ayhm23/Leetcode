@@ -1,41 +1,59 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> words;
-        for(auto it : wordList){
-            words.insert(it);
-        }
-        queue<pair<string,int>> q;
-        q.push({beginWord, 1});
-        words.erase(beginWord);
+        unordered_set<string> dict(wordList.begin(), wordList.end());
 
-        if (words.find(endWord) == words.end()) return 0;
+        if (!dict.count(endWord))
+            return 0;
 
+        unordered_set<string> beginSet{beginWord};
+        unordered_set<string> endSet{endWord};
 
-        while(!q.empty()){
-            auto it = q.front();
-            q.pop();
+        dict.erase(beginWord);
+        dict.erase(endWord);
 
-            string currWord = it.first;
-            int currLevel = it.second;
-            
-            for(int i = 0; i < currWord.length(); i++){
-                for(int j = 0; j < 26; j++){
-                    // string nextWord = currWord.substr(0, i) + char('a' + j) + currWord.substr(i + 1);
-                    string nextWord = currWord; nextWord[i] = char('a' + j);
-                    int nextLevel = currLevel + 1;
+        int level = 1;
 
-                    if(nextWord == endWord){
-                        return nextLevel;
+        while (!beginSet.empty() && !endSet.empty()) {
+
+            // Always expand the smaller frontier
+            if (beginSet.size() > endSet.size())
+                swap(beginSet, endSet);
+
+            unordered_set<string> next;
+
+            for (const string &word : beginSet) {
+
+                string curr = word;
+
+                for (int i = 0; i < curr.size(); i++) {
+
+                    char original = curr[i];
+
+                    for (char c = 'a'; c <= 'z'; c++) {
+
+                        if (c == original)
+                            continue;
+
+                        curr[i] = c;
+
+                        if (endSet.count(curr))
+                            return level + 1;
+
+                        if (dict.count(curr)) {
+                            next.insert(curr);
+                            dict.erase(curr);
+                        }
                     }
 
-                    if(words.find(nextWord) != words.end()){
-                        q.push({nextWord, nextLevel});
-                        words.erase(nextWord);
-                    }
+                    curr[i] = original;
                 }
             }
+
+            beginSet = next;
+            level++;
         }
+
         return 0;
     }
 };
