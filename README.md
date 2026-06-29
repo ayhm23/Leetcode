@@ -268,6 +268,7 @@ Leetcode solved questions
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayhm23/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -377,6 +378,7 @@ Leetcode solved questions
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayhm23/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayhm23/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/ayhm23/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -464,6 +466,7 @@ Leetcode solved questions
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
@@ -576,6 +579,7 @@ Leetcode solved questions
 | [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Merge Sort
 |  |
@@ -634,6 +638,7 @@ Leetcode solved questions
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
@@ -683,6 +688,7 @@ Leetcode solved questions
 | [1171-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/ayhm23/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -873,6 +879,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Ordered Set
 |  |
 | ------- |
