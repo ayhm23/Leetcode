@@ -881,6 +881,7 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Ordered Set
