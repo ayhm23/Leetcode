@@ -1,87 +1,81 @@
-class DisjointSet {
-    public: 
-        vector<int> rank, parent, size;
-        DisjointSet(){
-            
+class DisJointSet{
+    private:
+        unordered_map<string, string> UP_Name, parent;// CHANGED: parent should email -> parent email
+        unordered_map<string, int> size;
+
+    public:
+        DisJointSet(){}
+
+        string findP(string a){
+            if(parent.find(a) == parent.end()){size[a] = 1;return parent[a] = a;}
+            if(parent[a] == a) return a;
+            return parent[a] = findP(parent[a]);
         }
-        DisjointSet(int n) {
-            rank.resize(n + 1, 0);
-            parent.resize(n + 1);
-            size.resize(n + 1, 1);
-            for (int i = 0; i <= n; i++) parent[i] = i;
-        }
-    
-        int findUPar(int node) {
-            if (node == parent[node]) return node;
-            return parent[node] = findUPar(parent[node]);
-        }
-    
-        void unionByRank(int u, int v) {
-            int ulp_u = findUPar(u);
-            int ulp_v = findUPar(v);
-            if (ulp_u == ulp_v) return;
-            if (rank[ulp_u] < rank[ulp_v]) {
-                parent[ulp_u] = ulp_v;
-            } else if (rank[ulp_u] > rank[ulp_v]) {
-                parent[ulp_v] = ulp_u;
-            } else {
-                parent[ulp_v] = ulp_u;
-                rank[ulp_u]++;
+
+        void unionBySize(string a, string b){
+            string pa = findP(a), pb = findP(b);
+            if(pa == pb) return;
+            if(size[pa] >= size[pb]){
+                parent[pb] = pa;
+                size[pa] += size[pb];
+            }
+            else{
+                parent[pa] = pb;
+                size[pb] += size[pa];
             }
         }
-    
-        void unionBySize(int u, int v) {
-            int ulp_u = findUPar(u);
-            int ulp_v = findUPar(v);
-            if (ulp_u == ulp_v) return;
-            if (size[ulp_u] < size[ulp_v]) {
-                parent[ulp_u] = ulp_v;
-                size[ulp_v] += size[ulp_u];
-            } else {
-                parent[ulp_v] = ulp_u;
-                size[ulp_u] += size[ulp_v];  // Fixed: was `size[ulp_v] += size[ulp_v]`
-            }
+
+        void setname(string s, string name){
+            string p = findP(s);
+            UP_Name[p] = name;
         }
-    };
+
+        string getName(string s){
+            return UP_Name[findP(s)];
+        }
+};
+
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        int n = accounts.size();
-        DisjointSet ds(n);
-        unordered_map<string, int> Mailmap;
-        int num = -1;
-        for(int i = 0; i < n; i++){
-            for(int j = 1; j < accounts[i].size(); j++){
-                string mail = accounts[i][j];
-                if(Mailmap.find(mail) == Mailmap.end()){
-                    Mailmap.insert({mail, i});
-                }
-                else{
-                    //found existing mail 
-                    ds.unionBySize(i, Mailmap[mail]);
-                }
+        DisJointSet dsu;
+        for(auto &acc : accounts){
+            for(int i = 1; i < acc.size()-1; i++){
+                dsu.unionBySize(acc[i], acc[i+1]);
             }
         }
-        vector<vector<string>> mergedmail(n);
 
-        for(auto it : Mailmap){
-            string mail = it.first;
-            int node = it.second;
-            mergedmail[ds.findUPar(node)].push_back(mail);
-
+        // CHANGED: assign names AFTER all unions so final root gets the name
+        for(auto &acc : accounts){
+            dsu.setname(acc[1], acc[0]);
         }
+
+        // CHANGED: group emails by ultimate parent
+        unordered_map<string, vector<string>> groups;
+
+        for(auto &acc : accounts){
+            for(int i = 1; i < acc.size(); i++){
+                groups[dsu.findP(acc[i])].push_back(acc[i]);
+            }
+        }
+
         vector<vector<string>> ans;
-        for(int i = 0; i < n; i++){
-            if(mergedmail[i].size() == 0) continue;
-            sort(mergedmail[i].begin(), mergedmail[i].end()); // ✅ Sort each vector individually
 
-            vector<string> temp;
-            temp.push_back(accounts[i][0]);
-            for(auto it : mergedmail[i]){
-                temp.push_back(it);
-            }
-            ans.push_back(temp);
+        for(auto &[root, emails] : groups){
+            sort(emails.begin(), emails.end());
+
+            // CHANGED: remove duplicate emails
+            emails.erase(unique(emails.begin(), emails.end()), emails.end());
+
+            vector<string> curr;
+            curr.push_back(dsu.getName(root));
+
+            for(auto &mail : emails)
+                curr.push_back(mail);
+
+            ans.push_back(curr);
         }
+
         return ans;
     }
 };
