@@ -465,6 +465,7 @@ Leetcode solved questions
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -637,6 +638,7 @@ Leetcode solved questions
 | [1073-number-of-enclaves](https://github.com/ayhm23/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ayhm23/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -879,9 +881,14 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayhm23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Ordered Set
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
+## Graph Theory
+|  |
+| ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 <!---LeetCode Topics End-->
