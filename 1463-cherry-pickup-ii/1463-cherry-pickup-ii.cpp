@@ -1,51 +1,52 @@
 class Solution {
 public:
     int cherryPickup(vector<vector<int>>& grid) {
-        int r = grid.size();
-        int c = grid[0].size();
+        // dp[row][col1][col2] = max cherries till this state
+        int rows = grid.size(), cols = grid[0].size();
 
-        vector<vector<vector<int>>> dp(
-            r, vector<vector<int>>(c, vector<int>(c, 0))
-        );
+        vector<vector<vector<int>>> dp(rows, vector<vector<int>>(cols, vector<int>(cols, INT_MIN)));
 
-        // base row
-        for(int j1 = 0; j1 < c; j1++){
-            for(int j2 = 0; j2 < c; j2++){
-                if(j1 == j2)
-                    dp[r-1][j1][j2] = grid[r-1][j1];
-                else
-                    dp[r-1][j1][j2] = grid[r-1][j1] + grid[r-1][j2];
-            }
-        }
+        dp[0][0][cols - 1] = grid[0][0];
+        if(cols > 1) dp[0][0][cols - 1] += grid[0][cols - 1]; // <-- handle same column case
 
-        for(int i = r-2; i >= 0; i--){
-            for(int j1 = 0; j1 < c; j1++){
-                for(int j2 = 0; j2 < c; j2++){
+        for(int i = 1; i < rows; i++) {
+            for(int j = 0; j < cols; j++) {
+                for(int k = 0; k < cols; k++) {
+                    int curr;
+                    if(j == k)
+                        curr = grid[i][j];
+                    else
+                        curr = grid[i][j] + grid[i][k];
 
-                    int best = 0;
+                    int prev = INT_MIN;      // <-- FIX: declare prev for every state
 
-                    for(int d1 = -1; d1 <= 1; d1++){
-                        for(int d2 = -1; d2 <= 1; d2++){
+                    for(int dj = -1; dj <= 1; dj++) {
+                        for(int dk = -1; dk <= 1; dk++) {
 
-                            int nj1 = j1 + d1;
-                            int nj2 = j2 + d2;
+                            // <-- FIX: previous columns, not next columns
+                            int nj = j - dj;
+                            int nk = k - dk;
 
-                            if(nj1 >= 0 && nj1 < c && nj2 >= 0 && nj2 < c)
-                                best = max(best, dp[i+1][nj1][nj2]);
+                            if(nj >= 0 && nj < cols && nk >= 0 && nk < cols) {
+                                prev = max(prev, dp[i - 1][nj][nk]);
+                            }
                         }
                     }
 
-                    int cherries;
-                    if(j1 == j2)
-                        cherries = grid[i][j1];
-                    else
-                        cherries = grid[i][j1] + grid[i][j2];
-
-                    dp[i][j1][j2] = cherries + best;
+                    // <-- FIX: don't add INT_MIN
+                    if(prev != INT_MIN) dp[i][j][k] = curr + prev;
                 }
             }
         }
 
-        return dp[0][0][c-1];
+        int ans = INT_MIN;
+
+        for(int j = 0; j < cols; j++) {
+            for(int k = 0; k < cols; k++) {
+                ans = max(ans, dp[rows - 1][j][k]);
+            }
+        }
+
+        return ans;
     }
 };
