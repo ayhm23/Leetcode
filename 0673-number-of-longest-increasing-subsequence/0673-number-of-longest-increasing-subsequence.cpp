@@ -17,7 +17,7 @@ public:
                     dp[i] = max(dp[i], 1 + dp[j]);
                 }
             }
-            maxi = max(dp[i], maxi);
+            maxi = max(dp[i], maxi);    
         }
         int ans = 0;
         for(int i = 0; i < n; i++){
