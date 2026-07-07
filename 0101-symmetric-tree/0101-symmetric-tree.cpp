@@ -11,16 +11,21 @@
  */
 class Solution {
 public:
-    bool isSymm(TreeNode* p , TreeNode* q){
-        if(!p && !q) return true;
-        if(!p || !q) return false;
-        
-        if(p->val != q->val) return false;
 
-        else return isSymm(p->left, q->right) && isSymm(p->right, q->left);
+    bool isMirror(TreeNode* l, TreeNode* r){
+        if(!l && !r) return true;
+
+        if(!l || !r) return false;
+
+        if(l->val != r->val) return false;
+
+        return isMirror(l->left, r->right) &&
+               isMirror(l->right, r->left);
     }
+
     bool isSymmetric(TreeNode* root) {
         if(!root) return true;
-        return isSymm(root->left, root->right);
+
+        return isMirror(root->left, root->right);
     }
 };
