@@ -12,27 +12,21 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        vector<int> ans;
-        if(!root) return ans;
-
+        //similar to level order but bottom view ans use rows
+        vector<int> ans; if(!root) return ans;
         queue<pair<TreeNode*, int>> q;
-        map<int,int> nodes; 
-        
-        q.push({root, 0});
-        while(!q.empty()){
-            auto it = q.front(); q.pop();
-            TreeNode* node = it.first;
-            int row = it.second;
 
-            if(nodes.find(row) == nodes.end()){
-                nodes[row] = node->val;
-            }
-            if(node->right) q.push({node->right, row + 1});
-            if(node->left) q.push({node->left, row + 1});
+        q.push({root, 0});
+        map<int, int> mp;
+
+        while(!q.empty()){
+            auto [node, row] = q.front(); q.pop();
+            mp[row] = node->val;
+            if(node->left) q.push({node->left, row+1});
+            if(node->right) q.push({node->right, row+1});
         }
-        for(auto &it : nodes){
-            ans.push_back(it.second);
-        }   
+
+        for(auto &[row, val] : mp) ans.push_back(val);
         return ans;
     }
 };
