@@ -206,6 +206,7 @@ Leetcode solved questions
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ayhm23/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/ayhm23/Leetcode/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/ayhm23/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -766,6 +767,7 @@ Leetcode solved questions
 | [0062-unique-paths](https://github.com/ayhm23/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ayhm23/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/ayhm23/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
@@ -777,6 +779,7 @@ Leetcode solved questions
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
 | [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
 ## Prefix Sum
 |  |
@@ -899,4 +902,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
