@@ -141,6 +141,7 @@ Leetcode solved questions
 | [0076-minimum-window-substring](https://github.com/ayhm23/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/ayhm23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0413-arithmetic-slices](https://github.com/ayhm23/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayhm23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/ayhm23/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayhm23/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
@@ -223,6 +224,7 @@ Leetcode solved questions
 | [0347-top-k-frequent-elements](https://github.com/ayhm23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ayhm23/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/ayhm23/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/ayhm23/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
@@ -511,6 +513,7 @@ Leetcode solved questions
 | [0322-coin-change](https://github.com/ayhm23/Leetcode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/ayhm23/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/ayhm23/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/ayhm23/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
