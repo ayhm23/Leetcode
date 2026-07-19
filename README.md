@@ -129,6 +129,7 @@ Leetcode solved questions
 | [0029-divide-two-integers](https://github.com/ayhm23/Leetcode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/ayhm23/Leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/ayhm23/Leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ayhm23/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/ayhm23/Leetcode/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/ayhm23/Leetcode/tree/master/0190-reverse-bits) |
@@ -733,6 +734,7 @@ Leetcode solved questions
 | [0051-n-queens](https://github.com/ayhm23/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ayhm23/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/ayhm23/Leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ayhm23/Leetcode/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/ayhm23/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -777,6 +779,7 @@ Leetcode solved questions
 | [0062-unique-paths](https://github.com/ayhm23/Leetcode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/ayhm23/Leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ayhm23/Leetcode/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/ayhm23/Leetcode/tree/master/0089-gray-code) |
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/ayhm23/Leetcode/tree/master/0231-power-of-two) |
