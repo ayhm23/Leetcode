@@ -3,7 +3,7 @@ public:
     bool canEat(vector<int>& piles, int rate, int h){
         long long hours = 0;
         for(int i = 0; i < piles.size(); i++){
-            hours += (piles[i] - 1)/rate + 1;
+            hours += (piles[i] - 1)/rate + 1; // ceil
         }
         return hours <= h ? true : false;        
     }
