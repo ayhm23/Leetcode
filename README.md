@@ -79,6 +79,7 @@ Leetcode solved questions
 | [0139-word-break](https://github.com/ayhm23/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/ayhm23/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ayhm23/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/ayhm23/Leetcode/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -217,6 +218,7 @@ Leetcode solved questions
 | [0189-rotate-array](https://github.com/ayhm23/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/ayhm23/Leetcode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
+| [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/ayhm23/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayhm23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -706,6 +708,7 @@ Leetcode solved questions
 | [0079-word-search](https://github.com/ayhm23/Leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/ayhm23/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ayhm23/Leetcode/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ayhm23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ayhm23/Leetcode/tree/master/0733-flood-fill) |
@@ -750,6 +753,7 @@ Leetcode solved questions
 | [0090-subsets-ii](https://github.com/ayhm23/Leetcode/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/ayhm23/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/ayhm23/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
@@ -822,6 +826,7 @@ Leetcode solved questions
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ayhm23/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/ayhm23/Leetcode/tree/master/0139-word-break) |
+| [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 ## String Matching
 |  |
 | ------- |
