@@ -243,6 +243,7 @@ Leetcode solved questions
 | [0493-reverse-pairs](https://github.com/ayhm23/Leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ayhm23/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0502-ipo](https://github.com/ayhm23/Leetcode/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/ayhm23/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/ayhm23/Leetcode/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayhm23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -318,6 +319,7 @@ Leetcode solved questions
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/ayhm23/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ayhm23/Leetcode/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/ayhm23/Leetcode/tree/master/0846-hand-of-straights) |
@@ -448,6 +450,7 @@ Leetcode solved questions
 | [0410-split-array-largest-sum](https://github.com/ayhm23/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ayhm23/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayhm23/Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/ayhm23/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ayhm23/Leetcode/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayhm23/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -604,6 +607,7 @@ Leetcode solved questions
 | [0347-top-k-frequent-elements](https://github.com/ayhm23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/ayhm23/Leetcode/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/ayhm23/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/ayhm23/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ayhm23/Leetcode/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayhm23/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
