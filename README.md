@@ -945,4 +945,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/ayhm23/Leetcode/tree/master/0204-count-primes) |
+## Database
+|  |
+| ------- |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/ayhm23/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 <!---LeetCode Topics End-->
