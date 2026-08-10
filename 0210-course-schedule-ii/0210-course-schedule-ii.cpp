@@ -1,41 +1,45 @@
-
 class Solution {
 public:
+    vector<vector<int>> adjList;
+    vector<int> vis;
+
+    bool dfs(int i, vector<int>& topo){
+        vis[i] = 1;
+
+        for(int v : adjList[i]){
+            if(vis[v] == 1) return false; // cycle
+
+            if(vis[v] == 0){
+                if(!dfs(v, topo))
+                    return false;
+            }
+        }
+
+        vis[i] = 2;
+        topo.push_back(i);
+        return true;
+    }
+
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses);
-        vector<int> inDegree(numCourses, 0);
-        
-        // Build the adjacency list and calculate in-degrees
-        for (auto& pre : prerequisites) {
-            int course = pre[0];
-            int prereq = pre[1];
-            adj[prereq].push_back(course);
-            inDegree[course]++;
+        vector<int> topo;
+        int n = numCourses;
+
+        adjList.assign(n, {});
+        vis.assign(n, 0);
+
+        for(auto &it : prerequisites){
+            int u = it[0], v = it[1];
+            adjList[v].push_back(u); // prerequisite -> course
         }
-        
-        // Queue for courses with no prerequisites
-        queue<int> q;
-        for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0) {
-                q.push(i);
+
+        for(int i = 0; i < n; i++){
+            if(vis[i] == 0){
+                if(!dfs(i, topo))
+                    return {};
             }
         }
-        
-        vector<int> order;
-        while (!q.empty()) {
-            int node = q.front();
-            q.pop();
-            order.push_back(node);
-            
-            for (int neighbor : adj[node]) {
-                inDegree[neighbor]--;
-                if (inDegree[neighbor] == 0) {
-                    q.push(neighbor);
-                }
-            }
-        }
-        
-        // If we have processed all courses, return the order; otherwise, return an empty array
-        return (order.size() == numCourses) ? order : vector<int>();
+
+        reverse(topo.begin(), topo.end());
+        return topo;
     }
 };
