@@ -963,4 +963,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/ayhm23/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/ayhm23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
