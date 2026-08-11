@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        //lo = min possible open vbrackets, // hi = max possible open brackets
+        //lo = min possible open brackets, // hi = max possible open brackets
         int lo = 0, hi = 0;
         for(char c : s){
             if(c == '('){
