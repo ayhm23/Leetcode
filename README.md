@@ -297,6 +297,7 @@ Leetcode solved questions
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/ayhm23/Leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
@@ -462,6 +463,7 @@ Leetcode solved questions
 | [0860-lemonade-change](https://github.com/ayhm23/Leetcode/tree/master/0860-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/ayhm23/Leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/ayhm23/Leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Depth-First Search
