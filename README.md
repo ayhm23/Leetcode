@@ -53,6 +53,7 @@ Leetcode solved questions
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## String
 |  |
@@ -164,6 +165,7 @@ Leetcode solved questions
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayhm23/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Array
 |  |
 | ------- |
@@ -303,6 +305,7 @@ Leetcode solved questions
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
 ## Sorting
