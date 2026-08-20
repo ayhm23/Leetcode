@@ -967,6 +967,7 @@ Leetcode solved questions
 | ------- |
 | [0197-rising-temperature](https://github.com/ayhm23/Leetcode/tree/master/0197-rising-temperature) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/ayhm23/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+| [1934-confirmation-rate](https://github.com/ayhm23/Leetcode/tree/master/1934-confirmation-rate) |
 ## Bracket Sequences
 |  |
 | ------- |
