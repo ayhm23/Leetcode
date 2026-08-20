@@ -965,6 +965,7 @@ Leetcode solved questions
 ## Database
 |  |
 | ------- |
+| [0197-rising-temperature](https://github.com/ayhm23/Leetcode/tree/master/0197-rising-temperature) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/ayhm23/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 ## Bracket Sequences
 |  |
