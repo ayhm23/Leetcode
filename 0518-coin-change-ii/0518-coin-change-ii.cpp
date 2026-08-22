@@ -1,28 +1,28 @@
 class Solution {
-public: 
-    using ll = long long;
+public:
+    vector<vector<int>> dp;
+
+    int rec(int amount, vector<int>& coins, int i) {
+
+        if(amount == 0) return 1;
+
+        if(amount < 0 || i < 0) return 0;
+
+        if(dp[i][amount] != -1) return dp[i][amount];
+
+
+        int take = rec(amount - coins[i], coins, i);
+
+        int skip = rec(amount, coins, i-1);
+
+
+        return dp[i][amount] = take + skip;
+    }
+
     int change(int amount, vector<int>& coins) {
         int n = coins.size();
+        dp.assign(n, vector<int>(amount+1, -1));
 
-        //dp[i][a]... coints seen till ith idx.. amount a can be generated..with dp methods;
-        
-       
-        vector<int> dp (amount + 1, 0);
-        dp[0] = 1;
-
-        for(int i = 1; i <= n; i++){
-            for(int a = 0; a <= amount; a++){
-                //not take
-                ll notTake = dp[a];
-                //take
-                ll take = 0;
-                if(a >= coins[i-1]){
-                    take = dp[a - coins[i-1]];
-                }
-                dp[a] = take + notTake;
-            }
-        }
-
-        return dp[amount];
+        return rec(amount, coins, n-1);
     }
 };
