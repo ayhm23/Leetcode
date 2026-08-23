@@ -304,6 +304,7 @@ Leetcode solved questions
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
@@ -337,6 +338,7 @@ Leetcode solved questions
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 ## Counting
 |  |
 | ------- |
@@ -416,6 +418,7 @@ Leetcode solved questions
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 ## Binary Tree
 |  |
 | ------- |
@@ -802,6 +805,7 @@ Leetcode solved questions
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayhm23/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 ## Math
 |  |
 | ------- |
