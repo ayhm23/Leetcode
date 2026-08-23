@@ -1,58 +1,55 @@
 class Solution {
 public:
-    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> dict(wordList.begin(), wordList.end());
-        if (!dict.count(endWord)) return {}; // Early exit if endWord is not in wordList
-
-        unordered_map<string, vector<string>> parents; // Store parent-child relationships
-        unordered_set<string> currentLevel{beginWord}; // Current BFS level
-        bool found = false;
-
-        // BFS Traversal
-        while (!currentLevel.empty() && !found) {
-            unordered_set<string> nextLevel;
-            for (const string& word : currentLevel) dict.erase(word); // Remove words used on this level
-            
-            for (const string& word : currentLevel) {
-                string temp = word;
-                for (int i = 0; i < word.size(); i++) {
-                    char original = temp[i];
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if (c == original) continue;
-                        temp[i] = c;
-                        if (dict.count(temp)) {
-                            nextLevel.insert(temp);
-                            parents[temp].push_back(word); // Store the transformation path
-                            if (temp == endWord) found = true;
-                        }
-                    }
-                    temp[i] = original;
-                }
-            }
-            currentLevel = move(nextLevel); // Move to the next level
-        }
-
-        // If no paths found, return empty result
-        if (!found) return {};
-
-        // Reconstruct paths using DFS
-        vector<vector<string>> ans;
-        vector<string> path = {endWord};
-        dfs(ans, parents, path, endWord, beginWord);
-        return ans;
-    }
-
-private:
-    void dfs(vector<vector<string>>& ans, unordered_map<string, vector<string>>& parents, 
-             vector<string>& path, const string& word, const string& beginWord) {
-        if (word == beginWord) {
-            ans.push_back(vector<string>(path.rbegin(), path.rend())); // Reverse path
+    vector<vector<string>> ans;
+    unordered_map<string, vector<string>> parents;
+    unordered_map<string, int> dist;
+    void dfs(string curr, string startWord, vector<string>& path){
+        if(curr == startWord){
+            vector<string> temp = path;
+            reverse(temp.begin(), temp.end());
+            ans.push_back(temp);
             return;
         }
-        for (const string& parent : parents[word]) {
+        
+        for(string parent : parents[curr]){
             path.push_back(parent);
-            dfs(ans, parents, path, parent, beginWord);
+            dfs(parent, startWord, path);
             path.pop_back();
         }
     }
+    vector<vector<string>> findLadders(string startWord, string endWord, vector<string>& wordList) { 
+        unordered_set<string> list (wordList.begin(), wordList.end());
+        //the plan is to bfs to make the pasrents arraty then back track..bfs from start word
+        if(!list.count(endWord)) return {};
+        if(list.count(startWord)) list.erase(startWord); 
+
+        queue<string> q; q.push(startWord);
+        dist[startWord] = 1;
+
+        while(!q.empty()){
+            string curr = q.front(); q.pop();
+            for(int i = 0; i < curr.length(); i++){
+                string temp = curr;
+                for(int j = 0; j < 26; j++){
+                    temp[i] = 'a' + j;
+                    if(temp == curr) continue;
+                    if(!list.count(temp)) continue;
+
+                    if(!dist.count(temp)){
+                        dist[temp] = dist[curr] + 1;
+                        parents[temp].push_back(curr);
+                        q.push(temp);
+                    }
+                    //what if it alrteady exits
+                    else if(dist[temp] == dist[curr]+1){
+                        parents[temp].push_back(curr);
+                    }
+                }
+            }
+        }
+        vector<string> res;
+        res.push_back(endWord);
+        dfs(endWord, startWord, res);
+        return ans;
+    }   
 };
