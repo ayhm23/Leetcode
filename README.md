@@ -972,6 +972,7 @@ Leetcode solved questions
 | [0197-rising-temperature](https://github.com/ayhm23/Leetcode/tree/master/0197-rising-temperature) |
 | [0596-classes-with-at-least-5-students](https://github.com/ayhm23/Leetcode/tree/master/0596-classes-with-at-least-5-students) |
 | [1070-product-sales-analysis-iii](https://github.com/ayhm23/Leetcode/tree/master/1070-product-sales-analysis-iii) |
+| [1164-product-price-at-a-given-date](https://github.com/ayhm23/Leetcode/tree/master/1164-product-price-at-a-given-date) |
 | [1211-queries-quality-and-percentage](https://github.com/ayhm23/Leetcode/tree/master/1211-queries-quality-and-percentage) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/ayhm23/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1934-confirmation-rate](https://github.com/ayhm23/Leetcode/tree/master/1934-confirmation-rate) |
