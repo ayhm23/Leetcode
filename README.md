@@ -110,6 +110,7 @@ Leetcode solved questions
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ayhm23/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Divide and Conquer
 |  |
@@ -602,6 +603,7 @@ Leetcode solved questions
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayhm23/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -867,6 +869,7 @@ Leetcode solved questions
 | [0735-asteroid-collision](https://github.com/ayhm23/Leetcode/tree/master/0735-asteroid-collision) |
 | [1260-shift-2d-grid](https://github.com/ayhm23/Leetcode/tree/master/1260-shift-2d-grid) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 ## Linked List
 |  |
 | ------- |
