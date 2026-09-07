@@ -53,6 +53,7 @@ Leetcode solved questions
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/ayhm23/Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## String
@@ -111,6 +112,7 @@ Leetcode solved questions
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/ayhm23/Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ayhm23/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Divide and Conquer
