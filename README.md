@@ -53,6 +53,7 @@ Leetcode solved questions
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayhm23/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayhm23/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1873-longest-nice-substring](https://github.com/ayhm23/Leetcode/tree/master/1873-longest-nice-substring) |
+| [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/ayhm23/Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
@@ -308,6 +309,7 @@ Leetcode solved questions
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/ayhm23/Leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
+| [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -345,6 +347,7 @@ Leetcode solved questions
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 ## Counting
 |  |
@@ -424,6 +427,7 @@ Leetcode solved questions
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
+| [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
 ## Binary Tree
@@ -578,6 +582,7 @@ Leetcode solved questions
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayhm23/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Stack
 |  |
