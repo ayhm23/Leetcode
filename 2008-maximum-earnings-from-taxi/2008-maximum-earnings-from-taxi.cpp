@@ -14,17 +14,15 @@ public:
 
         using ll = long long;
         vector<ll> dp(n+1, 0LL); //dp[i] = till distance i whats best profit;
+        int j = 0, m = rides.size();
         for(int i = 1; i <= n; i++){
             dp[i] = dp[i-1];
 
-            auto idx = lower_bound(ends.begin(), ends.end(), i); //find if any rides ends at i 
-            if(idx == ends.end()) continue;
-            
-            for(int j = idx - ends.begin(); j < rides.size(); j++){
-                if(ends[j] != i) break;
+            while(j < m && rides[j][1] == i){
                 ll rideProfit = rides[j][1] - rides[j][0] + rides[j][2];
-                ll lastP =  dp[rides[j][0]];
+                ll lastP = dp[rides[j][0]];
                 dp[i] = max(dp[i], rideProfit + lastP);
+                j++;
             }
         }
         return dp[n];
