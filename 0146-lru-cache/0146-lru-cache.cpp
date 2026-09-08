@@ -1,39 +1,40 @@
 class LRUCache {
-    list<pair<int,int>> lis;
-    unordered_map<int, list<pair<int,int>>::iterator> mp;
-    int cap;
-
 public:
+    int n;
+    unordered_map<int, list<pair<int,int>>::iterator> mp;
+    list<pair<int, int>> lst;
+
     LRUCache(int capacity) {
-        cap = capacity;
+        n = capacity;
     }
     
     int get(int key) {
-        if(mp.count(key) == 0) return -1;
-        auto& it = mp[key];
-        int val = it->second;
-        lis.erase(it);
-        lis.push_front({key, val});
-        mp[key] = lis.begin();
-        
-        return val;
+        if(!mp.count(key)) return -1;
+
+        auto it = mp[key];
+        lst.push_front({it->first, it->second});
+        int ans = it->second;
+        lst.erase(it);
+        mp.erase(key);
+        mp[key] = lst.begin();
+        return ans;
     }
     
     void put(int key, int value) {
-        if(mp.count(key) != 0){
+        if(mp.count(key)){ //key exists
             auto it = mp[key];
-            lis.erase(it);
+            mp.erase(key);
+            lst.erase(it);
+        }
+        else if(lst.size() == n){ //key exists
+            auto it = prev(lst.end());
+            
+            mp.erase(it->first);
+            lst.erase(it);
         }
 
-        lis.push_front({key, value});
-        mp[key] = lis.begin(); 
-        
-        if(lis.size() > cap){
-            auto it = lis.back();
-            int key = it.first;
-            lis.pop_back();
-            mp.erase(key);
-        }
+        lst.push_front({key, value});
+        mp[key] = lst.begin();
     }
 };
 
