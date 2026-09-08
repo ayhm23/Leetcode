@@ -306,6 +306,7 @@ Leetcode solved questions
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/ayhm23/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1861-rotating-the-box](https://github.com/ayhm23/Leetcode/tree/master/1861-rotating-the-box) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ayhm23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/ayhm23/Leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
@@ -758,6 +759,7 @@ Leetcode solved questions
 | [1463-cherry-pickup-ii](https://github.com/ayhm23/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1861-rotating-the-box](https://github.com/ayhm23/Leetcode/tree/master/1861-rotating-the-box) |
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
@@ -818,6 +820,7 @@ Leetcode solved questions
 | [0876-middle-of-the-linked-list](https://github.com/ayhm23/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayhm23/Leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1861-rotating-the-box](https://github.com/ayhm23/Leetcode/tree/master/1861-rotating-the-box) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayhm23/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
