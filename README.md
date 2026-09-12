@@ -575,6 +575,7 @@ Leetcode solved questions
 | [0907-sum-of-subarray-minimums](https://github.com/ayhm23/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/ayhm23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0940-distinct-subsequences-ii](https://github.com/ayhm23/Leetcode/tree/master/0940-distinct-subsequences-ii) |
+| [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
 | [1043-partition-array-for-maximum-sum](https://github.com/ayhm23/Leetcode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1048-longest-string-chain](https://github.com/ayhm23/Leetcode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/ayhm23/Leetcode/tree/master/1092-shortest-common-supersequence) |
@@ -843,6 +844,7 @@ Leetcode solved questions
 | [0268-missing-number](https://github.com/ayhm23/Leetcode/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/ayhm23/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/ayhm23/Leetcode/tree/master/1922-count-good-numbers) |
@@ -1020,4 +1022,16 @@ Leetcode solved questions
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayhm23/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+## Brainteaser
+|  |
+| ------- |
+| [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
+## Game Theory
+|  |
+| ------- |
+| [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
+## Impartial Game
+|  |
+| ------- |
+| [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
 <!---LeetCode Topics End-->
