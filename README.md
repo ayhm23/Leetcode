@@ -312,6 +312,7 @@ Leetcode solved questions
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/ayhm23/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayhm23/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
@@ -484,6 +485,7 @@ Leetcode solved questions
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/ayhm23/Leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/ayhm23/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 ## Depth-First Search
 |  |
 | ------- |
