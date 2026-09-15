@@ -114,6 +114,7 @@ Leetcode solved questions
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/ayhm23/Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayhm23/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ayhm23/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Divide and Conquer
@@ -486,6 +487,7 @@ Leetcode solved questions
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/ayhm23/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayhm23/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -588,6 +590,7 @@ Leetcode solved questions
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ayhm23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2008-maximum-earnings-from-taxi](https://github.com/ayhm23/Leetcode/tree/master/2008-maximum-earnings-from-taxi) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayhm23/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Stack
 |  |
 | ------- |
@@ -827,6 +830,7 @@ Leetcode solved questions
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayhm23/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayhm23/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2332-the-latest-time-to-catch-a-bus](https://github.com/ayhm23/Leetcode/tree/master/2332-the-latest-time-to-catch-a-bus) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayhm23/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Math
 |  |
 | ------- |
