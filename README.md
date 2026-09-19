@@ -857,6 +857,7 @@ Leetcode solved questions
 | [0368-largest-divisible-subset](https://github.com/ayhm23/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayhm23/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/ayhm23/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1903-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/ayhm23/Leetcode/tree/master/1922-count-good-numbers) |
 | [2032-largest-odd-number-in-string](https://github.com/ayhm23/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -1045,4 +1046,8 @@ Leetcode solved questions
 |  |
 | ------- |
 | [1025-divisor-game](https://github.com/ayhm23/Leetcode/tree/master/1025-divisor-game) |
+## Geometry
+|  |
+| ------- |
+| [1401-circle-and-rectangle-overlapping](https://github.com/ayhm23/Leetcode/tree/master/1401-circle-and-rectangle-overlapping) |
 <!---LeetCode Topics End-->
