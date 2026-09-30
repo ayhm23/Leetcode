@@ -26,21 +26,20 @@ public:
             if(ch == '('){
                 if(cur < target){
                     cur += p;
-                    st.push({i, 0});
+                    ans[i] = 0;
                 }
                 else{
-                    st.push({i, 1});
+                    ans[i] = 1;
                 }
             } 
             else{
                 //ch == ')'
-                auto [ind, x] = st.top(); st.pop();
-                
-                ans[ind] = x;
-                ans[i] = x;
-                
-                if(x == 0){
-                    cur += p;
+                if(cur > 0){
+                    cur--;
+                    ans[i] = 0;
+                }
+                else{
+                    ans[i] = 1;
                 }
             }
         }
