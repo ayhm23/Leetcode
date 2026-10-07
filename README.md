@@ -89,6 +89,7 @@ Leetcode solved questions
 | [0242-valid-anagram](https://github.com/ayhm23/Leetcode/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/ayhm23/Leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/ayhm23/Leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayhm23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -703,6 +704,7 @@ Leetcode solved questions
 | [0207-course-schedule](https://github.com/ayhm23/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ayhm23/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayhm23/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/ayhm23/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/ayhm23/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ayhm23/Leetcode/tree/master/0547-number-of-provinces) |
@@ -812,6 +814,7 @@ Leetcode solved questions
 | [0212-word-search-ii](https://github.com/ayhm23/Leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/ayhm23/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/ayhm23/Leetcode/tree/master/0282-expression-add-operators) |
+| [0301-remove-invalid-parentheses](https://github.com/ayhm23/Leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/ayhm23/Leetcode/tree/master/0494-target-sum) |
 | [1096-brace-expansion-ii](https://github.com/ayhm23/Leetcode/tree/master/1096-brace-expansion-ii) |
 ## Two Pointers
