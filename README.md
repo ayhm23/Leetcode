@@ -329,6 +329,7 @@ Leetcode solved questions
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayhm23/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/ayhm23/Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3221-find-the-peaks](https://github.com/ayhm23/Leetcode/tree/master/3221-find-the-peaks) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/ayhm23/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Sorting
 |  |
 | ------- |
@@ -537,6 +538,7 @@ Leetcode solved questions
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/ayhm23/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -730,6 +732,7 @@ Leetcode solved questions
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/ayhm23/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Union Find
 |  |
 | ------- |
@@ -786,6 +789,7 @@ Leetcode solved questions
 | [1901-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/ayhm23/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/ayhm23/Leetcode/tree/master/2737-row-with-maximum-ones) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/ayhm23/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Topological Sort
 |  |
 | ------- |
@@ -999,6 +1003,7 @@ Leetcode solved questions
 | [0721-accounts-merge](https://github.com/ayhm23/Leetcode/tree/master/0721-accounts-merge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/ayhm23/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Ordered Set
 |  |
 | ------- |
