@@ -123,6 +123,7 @@ Leetcode solved questions
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayhm23/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/ayhm23/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ayhm23/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/ayhm23/Leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -668,6 +669,7 @@ Leetcode solved questions
 | [0948-sort-an-array](https://github.com/ayhm23/Leetcode/tree/master/0948-sort-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ayhm23/Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/ayhm23/Leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Merge Sort
 |  |
 | ------- |
@@ -803,6 +805,7 @@ Leetcode solved questions
 | [0744-network-delay-time](https://github.com/ayhm23/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ayhm23/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ayhm23/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/ayhm23/Leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Backtracking
 |  |
 | ------- |
@@ -1014,6 +1017,7 @@ Leetcode solved questions
 | [0133-clone-graph](https://github.com/ayhm23/Leetcode/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/ayhm23/Leetcode/tree/master/0210-course-schedule-ii) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayhm23/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/ayhm23/Leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Number Theory
 |  |
 | ------- |
